@@ -1,0 +1,58 @@
+file,status,note
+data/bronze/bbs/bbs_boro_district_year.csv,identical,
+data/bronze/bbs/bbs_boro_national.csv,identical,
+data/bronze/bbs/bbs_boro_rows_all.csv,identical,
+data/bronze/bbs/bbs_edition_checks.csv,identical,
+data/bronze/bbs/bbs_edition_diffs.csv,identical,
+data/bronze/bbs/bbs_qc_failures.csv,identical,
+data/bronze/bbs/bbs_region_checks.csv,identical,
+data/bronze/manifest.csv,identical,
+data/gold/bangladesh_agri_v2.duckdb,same content,"8 tables, contents identical"
+data/silver/silver_bbs_boro.parquet,identical,
+data/silver/silver_climate.parquet,identical,
+data/silver/silver_jrc.parquet,identical,
+data/silver/silver_ndvi.parquet,identical,
+data/silver/silver_s1.parquet,identical,
+docs/data_dictionary.md,identical,
+mappings/district_crosswalk.csv,identical,
+outputs/failure_tests/clean_rerun.log,identical,
+outputs/failure_tests/dropped_row.log,same content,identical apart from the folder path
+outputs/failure_tests/duplicate_key.log,same content,identical apart from the folder path
+outputs/failure_tests/invalid_value.log,same content,identical apart from the folder path
+outputs/failure_tests/misaligned_cell.log,identical,
+outputs/failure_tests/missing_column.log,same content,identical apart from the folder path
+outputs/failure_tests/missing_value.log,same content,identical apart from the folder path
+outputs/failure_tests/results.csv,identical,
+outputs/failure_tests/s1_single_band_check.txt,kept in repository,"kept in the repository, not generated"
+outputs/failure_tests/swapped_rows.log,identical,
+outputs/failure_tests/transposed_digits.log,identical,
+outputs/failure_tests/unknown_district.log,same content,identical apart from the folder path
+outputs/failure_tests/wrong_type.log,same content,identical apart from the folder path
+outputs/figures/fig1_pipeline.png,identical,
+outputs/figures/fig2_coverage.png,identical,
+outputs/figures/fig3_vulnerability_lisa.png,identical,
+outputs/figures/fig4_coefficients.png,identical,
+outputs/figures/fig5_trends.png,identical,
+outputs/figures/fig6_flood_agreement.png,identical,
+outputs/figures/fig7_dashboard.png,kept in repository,"kept in the repository, not generated"
+outputs/figures/fig8_lineage.png,identical,
+outputs/pipeline_timings.json,run time only,run times
+outputs/results.json,identical,
+outputs/tables/national_annual_series.csv,identical,
+outputs/tables/table_descriptives.csv,identical,
+outputs/tables/table_district_matching.csv,identical,
+outputs/tables/table_district_yield_trends.csv,identical,
+outputs/tables/table_event_2017.csv,identical,
+outputs/tables/table_flood_agreement.csv,identical,
+outputs/tables/table_mann_kendall.csv,identical,
+outputs/tables/table_panel_fe.csv,identical,
+outputs/tables/table_panel_fe_area_production.csv,identical,
+outputs/tables/table_residual_moran.csv,identical,
+outputs/tables/table_spatial_robustness.csv,identical,
+outputs/tables/table_vulnerability_index.csv,identical,
+outputs/validation_report.csv,identical,
+outputs/validation_summary.json,identical,
+paper/reference.docx,same content,document parts identical (zip timestamps differ)
+paper_ems/Highlights.docx,same content,document parts identical (zip timestamps differ)
+paper_ems/Manuscript_EMS.docx,run time only,"6 paragraphs differ, all run times"
+paper_ems/Manuscript_EMS.md,run time only,"6 lines differ, all run times"

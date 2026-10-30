@@ -1,0 +1,11 @@
+$ python s03_build_panel.py  (exit 1)
+Traceback (most recent call last):
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 179, in <module>
+    main()
+    ~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 96, in main
+    check_inputs()
+    ~~~~~~~~~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 62, in check_inputs
+    raise DataContractError("[SCHEMA] " + "; ".join(problems))
+common.DataContractError: [SCHEMA] bbs/bbs_boro_district_year.csv: non-numeric values in numeric columns ['yield_t_ha']: yield_t_ha in 1 record(s): Dhaka 2018 = 'n/a'

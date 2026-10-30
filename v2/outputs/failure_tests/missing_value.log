@@ -1,0 +1,11 @@
+$ python s03_build_panel.py  (exit 1)
+Traceback (most recent call last):
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 179, in <module>
+    main()
+    ~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 96, in main
+    check_inputs()
+    ~~~~~~~~~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 64, in check_inputs
+    raise DataContractError("[MISSING] " + "; ".join(missing_values))
+common.DataContractError: [MISSING] bbs/bbs_boro_district_year.csv.yield_t_ha empty in 1 record(s): Bogura 2021

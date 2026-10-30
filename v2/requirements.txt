@@ -1,0 +1,35 @@
+# Direct dependencies of the v2 pipeline, pinned to the versions used to
+# produce the published results (Python 3.13.7, Windows 11).
+# Install:  python -m pip install -r v2/requirements.txt
+# Also needed: pandoc (only to rebuild the manuscript) and, only to
+# re-extract satellite and climate data, an authenticated Google Earth Engine
+# account (`earthengine authenticate`).
+
+# Data handling and warehouse
+pandas==2.3.3
+numpy==2.3.3
+pyarrow==24.0.0
+duckdb==1.5.2
+
+# BBS PDF table extraction
+camelot-py==1.0.9
+
+# Satellite and climate extraction
+earthengine-api==1.7.22
+
+# Geospatial
+geopandas==1.1.3
+pyogrio==0.12.1
+libpysal==4.14.1
+esda==2.9.0
+
+# Statistics
+scipy==1.16.3
+statsmodels==0.14.6
+linearmodels==7.0
+pymannkendall==1.4.3
+
+# Figures and dashboard
+matplotlib==3.10.7
+plotly==6.8.0
+streamlit==1.58.0

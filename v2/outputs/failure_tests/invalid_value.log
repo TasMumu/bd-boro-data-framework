@@ -1,0 +1,11 @@
+$ python s03_build_panel.py  (exit 1)
+Traceback (most recent call last):
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 179, in <module>
+    main()
+    ~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 110, in main
+    validate(df, name, log)
+    ~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 86, in validate
+    raise DataContractError(f"[RANGE] {name}.{c} outside [{lo}, {hi}] in {len(bad)} record(s): {recs}")
+common.DataContractError: [RANGE] ndvi.ndvi_peak outside [0.0, 1.0] in 1 record(s): Rajshahi 2019 = 1.7

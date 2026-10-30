@@ -1,0 +1,116 @@
+$ python s01_bbs_extract.py --from-rows {rows}  (exit 0)
+                     n_districts      sum_prod   sum_area  n_qc_fail  national_prod  national_area  prod_gap_pct
+book_year crop_year                                                                                             
+2012      2010-11             64  1.861678e+07  4770337.0          0            NaN            NaN           NaN
+          2011-12             64  1.875921e+07  4810025.0          0            NaN            NaN           NaN
+2013      2011-12             64  1.875921e+07  4810025.0          0     18759212.0      4810025.0      0.000005
+          2012-13             64  1.877816e+07  4760055.0          4     18778154.0      4760055.0      0.000005
+2014      2012-13             64  1.877816e+07  4760055.0          0     18778154.0      4760055.0      0.000005
+          2013-14             64  1.900720e+07  4790307.0          0     19007206.0      4790305.0     -0.000016
+2015      2013-14             63  1.832469e+07  4624132.0          0     19007206.0      4790305.0     -3.590817
+          2014-15             63  1.846225e+07  4670746.0          0     19192164.0      4840222.0     -3.803167
+2016      2014-15             64  1.919217e+07  4840224.0          0     19192164.0      4840222.0      0.000010
+          2015-16             64  1.893758e+07  4772576.0          0     18937581.0      4772576.0     -0.000021
+2017      2015-16             64  1.893758e+07  4772576.0          0     18937581.0      4772576.0     -0.000021
+          2016-17             64  1.801375e+07  4475879.0          0     18013749.0      4475876.0     -0.000006
+2018      2016-17             32  1.178633e+07  2928295.0          0     18013749.0      4475876.0    -34.570377
+          2017-18             32  1.306139e+07  3263624.0          0     19575819.0      4859367.0    -33.277933
+2019      2017-18             64  1.957582e+07  4859367.0          0     19575819.0      4859367.0     -0.000020
+          2018-19             64  1.956055e+07  4788276.3          0     19560546.0      4788276.0      0.000016
+2020      2018-19             64  1.956055e+07  4788276.0          0     19560546.0      4788276.0      0.000010
+          2019-20             64  1.964533e+07  4762131.0          0     19645334.0      4762130.0     -0.000015
+2021      2019-20             64  1.963633e+07  4762131.0          1     19645334.0      4762130.0     -0.045828
+          2020-21             64  1.988528e+07  4786997.0          0     19885283.0      4786998.0      0.000000
+2022      2020-21             64  1.988528e+07  4786997.0          0            NaN            NaN           NaN
+          2021-22             64  2.018594e+07  4814564.0          0            NaN            NaN           NaN
+2023      2021-22             64  2.018594e+07  4814564.0          0            NaN            NaN           NaN
+          2022-23             64  2.076762e+07  4852290.0          0            NaN            NaN           NaN
+2024      2022-23             64  2.076762e+07  4852290.0          0     20767626.0      4852290.0     -0.000014
+          2023-24             64  2.106837e+07  4877769.0          0     21068368.0      4877775.0      0.000000
+2025      2023-24             64  2.106837e+07  4877769.0          0     21068368.0      4877775.0      0.000000
+          2024-25             64  2.132199e+07  4889032.0          0     21321988.0      4889033.0      0.000000
+District-years printed in two editions: 766, differing: 6
+                                            size  sum
+check                                                
+region = sum of listed districts              72   72
+single-district region = 2014 district row     5    5
+max relative discrepancy among accepted rows: {'qc_ha': 0.00107, 'qc_yield': 0.00134, 'qc_prod': 0.00152}
+Districts per crop year (final):
+ crop_year
+2010-11    64
+2011-12    64
+2012-13    64
+2013-14    64
+2014-15    64
+2015-16    64
+2016-17    64
+2017-18    64
+2018-19    64
+2019-20    64
+2020-21    64
+2021-22    64
+2022-23    64
+2023-24    64
+2024-25    64
+QC failures (excluded): 5
+
+$ python s03_build_panel.py  (exit 0)
+bbs_boro: yield_t_ha out of [1.0,7.0]: 0
+bbs_boro: area_ha out of [0,300000]: 0
+bbs_boro: production_t out of [0,2000000]: 0
+bbs_boro: duplicate district-years: 0
+ndvi: ndvi_peak out of [0.0,1.0]: 0
+ndvi: ndvi_max out of [0.0,1.0]: 0
+ndvi: duplicate district-years: 0
+climate: tmean_c out of [10,35]: 0
+climate: tmax_c out of [15,40]: 0
+climate: precip_mm out of [0,3000]: 0
+climate: hot_days out of [0,92]: 0
+climate: duplicate district-years: 0
+jrc: jrc_monsoon_flood out of [0,1]: 0
+jrc: jrc_flash_flood out of [0,1]: 0
+jrc: jrc_monsoon_obs out of [0,1]: 0
+jrc: jrc_flash_obs out of [0,1]: 0
+jrc: duplicate district-years: 0
+s1: s1_monsoon_flood out of [0,1]: 0
+s1: s1_flash_flood out of [0,1]: 0
+s1: duplicate district-years: 0
+fact_boro_panel: 960 rows, 64 districts, 2011-2025
+Non-missing counts:
+district_id          960
+district             960
+division             960
+area_km2             960
+harvest_year         960
+crop_year            960
+yield_t_ha           960
+area_ha              960
+production_t         960
+bbs_edition          960
+bbs_page             960
+ndvi_peak            960
+ndvi_max             960
+tmean_c              960
+tmax_c               960
+precip_mm            960
+hot_days             960
+jrc_monsoon_flood    768
+jrc_flash_flood      704
+jrc_monsoon_obs      768
+jrc_flash_obs        704
+s1_monsoon_flood     640
+s1_flash_flood       704
+
+$ python s03b_validate.py  (exit 1)
+status        FAIL  INFO  PASS
+category                      
+cross-source     1     1     6
+geographic       0     0    13
+lineage          0     0     3
+relational       0     0    39
+structural       0     0    15
+temporal         0     0    14
+value            0     0    16
+         category      object                                                    check        expected                                                        observed
+101  cross-source  BBS tables  district sum = printed national total (complete tables)  within 0.001 %  max 0.045828 % over 18 tables; 2021 edition, 2019-20: -0.046 %
+validation failed: 1 check(s)

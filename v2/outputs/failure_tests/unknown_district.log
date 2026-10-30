@@ -1,0 +1,12 @@
+$ python s03_build_panel.py  (exit 1)
+Traceback (most recent call last):
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 179, in <module>
+    main()
+    ~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 98, in main
+    bbs = harmonise(pd.read_csv(V2_BRONZE / "bbs" / "bbs_boro_district_year.csv"), "bbs")
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 73, in harmonise
+    raise DataContractError(f"[DISTRICT] {name}: unrecognised district names {unknown} in "
+                            f"{records(df, mapped.isna())}; "
+                            "check the source and add the spelling to common.ALIASES")
+common.DataContractError: [DISTRICT] bbs: unrecognised district names ['Sunamgonjj'] in 1 record(s): Sunamgonjj 2017; check the source and add the spelling to common.ALIASES

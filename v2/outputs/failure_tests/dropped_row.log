@@ -1,0 +1,65 @@
+$ python s01_bbs_extract.py --from-rows {rows}  (exit 0)
+                     n_districts      sum_prod   sum_area  n_qc_fail  national_prod  national_area  prod_gap_pct
+book_year crop_year                                                                                             
+2012      2010-11             64  1.861678e+07  4770337.0          0            NaN            NaN           NaN
+          2011-12             64  1.875921e+07  4810025.0          0            NaN            NaN           NaN
+2013      2011-12             64  1.875921e+07  4810025.0          0     18759212.0      4810025.0      0.000005
+          2012-13             64  1.877816e+07  4760055.0          4     18778154.0      4760055.0      0.000005
+2014      2012-13             64  1.877816e+07  4760055.0          0     18778154.0      4760055.0      0.000005
+          2013-14             64  1.900720e+07  4790307.0          0     19007206.0      4790305.0     -0.000016
+2015      2013-14             63  1.832469e+07  4624132.0          0     19007206.0      4790305.0     -3.590817
+          2014-15             63  1.846225e+07  4670746.0          0     19192164.0      4840222.0     -3.803167
+2016      2014-15             64  1.919217e+07  4840224.0          0     19192164.0      4840222.0      0.000010
+          2015-16             64  1.893758e+07  4772576.0          0     18937581.0      4772576.0     -0.000021
+2017      2015-16             64  1.893758e+07  4772576.0          0     18937581.0      4772576.0     -0.000021
+          2016-17             64  1.801375e+07  4475879.0          0     18013749.0      4475876.0     -0.000006
+2018      2016-17             32  1.178633e+07  2928295.0          0     18013749.0      4475876.0    -34.570377
+          2017-18             32  1.306139e+07  3263624.0          0     19575819.0      4859367.0    -33.277933
+2019      2017-18             64  1.957582e+07  4859367.0          0     19575819.0      4859367.0     -0.000020
+          2018-19             64  1.956055e+07  4788276.3          0     19560546.0      4788276.0      0.000016
+2020      2018-19             64  1.956055e+07  4788276.0          0     19560546.0      4788276.0      0.000010
+          2019-20             64  1.964533e+07  4762131.0          0     19645334.0      4762130.0     -0.000015
+2021      2019-20             64  1.964533e+07  4762131.0          0     19645334.0      4762130.0     -0.000015
+          2020-21             64  1.988528e+07  4786997.0          0     19885283.0      4786998.0      0.000000
+2022      2020-21             64  1.988528e+07  4786997.0          0            NaN            NaN           NaN
+          2021-22             64  2.018594e+07  4814564.0          0            NaN            NaN           NaN
+2023      2021-22             64  2.018594e+07  4814564.0          0            NaN            NaN           NaN
+          2022-23             64  2.076762e+07  4852290.0          0            NaN            NaN           NaN
+2024      2022-23             64  2.076762e+07  4852290.0          0     20767626.0      4852290.0     -0.000014
+          2023-24             64  2.106837e+07  4877769.0          0     21068368.0      4877775.0      0.000000
+2025      2023-24             64  2.106837e+07  4877769.0          0     21068368.0      4877775.0      0.000000
+          2024-25             63  2.105226e+07  4828656.0          0     21321988.0      4889033.0     -1.265023
+District-years printed in two editions: 766, differing: 6
+                                            size  sum
+check                                                
+region = sum of listed districts              72   72
+single-district region = 2014 district row     5    5
+max relative discrepancy among accepted rows: {'qc_ha': 0.00107, 'qc_yield': 0.00134, 'qc_prod': 0.00152}
+Districts per crop year (final):
+ crop_year
+2010-11    64
+2011-12    64
+2012-13    64
+2013-14    64
+2014-15    64
+2015-16    64
+2016-17    64
+2017-18    64
+2018-19    64
+2019-20    64
+2020-21    64
+2021-22    64
+2022-23    64
+2023-24    64
+2024-25    63
+QC failures (excluded): 4
+
+$ python s03_build_panel.py  (exit 1)
+Traceback (most recent call last):
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 179, in <module>
+    main()
+    ~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 168, in main
+    raise DataContractError(f"[MISSING] fact_boro_panel: no BBS value for {len(absent)} district-year(s): "
+                            + ", ".join(f"{d} {y}" for d, y in absent[:5]))
+common.DataContractError: [MISSING] fact_boro_panel: no BBS value for 1 district-year(s): Khulna 2025

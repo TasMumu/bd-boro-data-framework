@@ -1,0 +1,4 @@
+Source,Records,Distinct spellings,Exact,Normalised,Alias rule,Region row,Unmatched,Districts reached
+BBS yearbooks,1726,99,60,4,30,5,0,64
+Earth Engine extract,3392,65,64,0,1,0,0,64
+GADM v4.1,64,64,54,1,9,0,0,64

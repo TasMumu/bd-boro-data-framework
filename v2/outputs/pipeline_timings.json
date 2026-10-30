@@ -1,0 +1,24 @@
+{
+ "local_s": {
+  "BBS extraction and validation": 65.1,
+  "Earth Engine extraction (cached)": 3.2,
+  "Metadata manifest": 1.9,
+  "Silver and Gold layers": 3.4,
+  "Validation report": 2.8,
+  "Statistical analysis": 67.0,
+  "Figures": 6.8,
+  "Manuscript template": 0.3
+ },
+ "gee_s_per_year": {
+  "ERA5-Land climate": 21.0,
+  "JRC flood": 201.0,
+  "NDVI": 35.0,
+  "Sentinel-1 flood": 111.0
+ },
+ "machine": {
+  "os": "Windows-11",
+  "cpus": 16,
+  "ram_gb": 16,
+  "python": "3.13.7"
+ }
+}

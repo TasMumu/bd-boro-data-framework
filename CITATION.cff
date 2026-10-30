@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or the data it produces, please cite it as below."
+title: "bd-boro-data-framework: an open, tested data engineering framework for integrating official crop statistics with satellite and climate data, district-level Boro rice in Bangladesh"
+type: software
+authors:
+  - family-names: Mumu
+    given-names: Tasnim Ahmad
+    affiliation: "Department of Agronomy and Agricultural Extension, University of Rajshahi"
+    orcid: "https://orcid.org/0009-0006-8346-9622"
+version: "1.0.0-dev"
+repository-code: "https://github.com/TasMumu/bd-boro-data-framework"
+license: MIT
+abstract: >-
+  A Bronze–Silver–Gold pipeline in Python and DuckDB that extracts district
+  Boro rice statistics from the Bangladesh Bureau of Statistics Yearbooks of
+  Agricultural Statistics (2012–2025 editions), validates every value against
+  unit identities, printed national totals and a second edition, and aligns
+  it by harvest year with MODIS NDVI, ERA5-Land climate, and JRC and
+  Sentinel-1 flood fractions for all 64 districts (harvest years 2011–2025).
+  The pipeline code and documentation are in the folder v2.
+keywords:
+  - data engineering
+  - reproducibility
+  - agricultural statistics
+  - Boro rice
+  - Bangladesh
+  - Sentinel-1
+  - DuckDB
+# No release has been archived yet: add "date-released" and the Zenodo DOI
+# (identifiers) when version 1.0.0 is released.

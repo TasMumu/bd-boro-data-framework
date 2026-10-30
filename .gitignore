@@ -1,0 +1,28 @@
+# Downloaded inputs whose terms do not allow redistribution (see data/bronze/README.md)
+data/bronze/bbs/pdfs/*
+!data/bronze/bbs/pdfs/.gitkeep
+data/bronze/gadm_shapefiles/*
+!data/bronze/gadm_shapefiles/.gitkeep
+
+# Built locally
+v2/notebooks/build/
+v2/logs/
+v2/paper/_render/
+v2/paper_ems/_render/
+
+# Correspondence about the manuscript, kept locally
+v2/paper_ems/Response_to_comments.*
+
+# Python, Jupyter, editors, operating system
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv*/
+venv/
+.env
+.cdsapirc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

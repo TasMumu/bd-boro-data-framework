@@ -1,0 +1,11 @@
+Sentinel-1 one-band processing check (2026-10-28)
+
+Harvest year 2015 is the only Sentinel-1 year processed as a one-band image
+(flash flood only; no complete Jun-Oct 2014 monsoon season). To confirm that
+it follows the same rules as later years, harvest year 2016 was recomputed
+through the same one-band path and compared with the stored 2016 values,
+which were computed through the usual two-band path.
+
+Districts compared: 64
+Maximum absolute difference: 9.97e-17 (floating-point noise)
+Result: identical

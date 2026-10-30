@@ -1,0 +1,11 @@
+$ python s03_build_panel.py  (exit 1)
+Traceback (most recent call last):
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 179, in <module>
+    main()
+    ~~~~^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 110, in main
+    validate(df, name, log)
+    ~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\Tasnim Docs\Projects\GIS Projects\GIS Project\BD_Rice_Climate\bangladesh_agri\v2\src\s03_build_panel.py", line 91, in validate
+    raise DataContractError(f"[KEY] {name}: duplicate (district, harvest_year) keys {keys}")
+common.DataContractError: [KEY] bbs_boro: duplicate (district, harvest_year) keys [('Sylhet', 2020)]

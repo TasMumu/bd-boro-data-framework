@@ -1,0 +1,421 @@
+source,source_name,canonical_district,n_records,editions,rule,district_id
+BBS yearbooks,Bagerhat,Bagerhat,26,2012–2025,exact,BGD.4.1_1
+BBS yearbooks,Bandarban,Bandarban,22,2014–2025,exact,BGD.2.1_1
+BBS yearbooks,Bandarban Region,Bandarban,4,2012–2013,single-district region row (verified against 2014 edition),BGD.2.1_1
+BBS yearbooks,Barguna,Barguna,26,2012–2025,exact,BGD.1.1_1
+BBS yearbooks,Barisal,Barishal,10,2012–2016,alias rule,BGD.1.2_1
+BBS yearbooks,Barishal,Barishal,16,2017–2025,exact,BGD.1.2_1
+BBS yearbooks,Bhola,Bhola,26,2012–2025,exact,BGD.1.3_1
+BBS yearbooks,Bogra,Bogura,10,2012–2016,alias rule,BGD.5.1_1
+BBS yearbooks,Bogura,Bogura,18,2017–2025,exact,BGD.5.1_1
+BBS yearbooks,Brahmanbari a,Brahmanbaria,2,2015–2015,"normalised (case, spacing, punctuation)",BGD.2.2_1
+BBS yearbooks,Brahmanbaria,Brahmanbaria,24,2012–2025,exact,BGD.2.2_1
+BBS yearbooks,Chandpur,Chandpur,26,2012–2025,exact,BGD.2.3_1
+BBS yearbooks,Chapai  Nawabganj,Chapai Nawabganj,12,2020–2025,"normalised (case, spacing, punctuation)",BGD.5.5_1
+BBS yearbooks,Chapai  Nawabgonj,Chapai Nawabganj,4,2018–2019,alias rule,BGD.5.5_1
+BBS yearbooks,Chapinawabgonj,Chapai Nawabganj,2,2014–2014,alias rule,BGD.5.5_1
+BBS yearbooks,Nawabgonj,Chapai Nawabganj,10,2012–2017,alias rule,BGD.5.5_1
+BBS yearbooks,Chattagram,Chattogram,2,2017–2017,alias rule,BGD.2.4_1
+BBS yearbooks,Chattogram,Chattogram,14,2019–2025,exact,BGD.2.4_1
+BBS yearbooks,Chittagong,Chattogram,10,2012–2016,alias rule,BGD.2.4_1
+BBS yearbooks,Chuadanga,Chuadanga,26,2012–2025,exact,BGD.4.2_1
+BBS yearbooks,Cox' Bazar,Cox's Bazar,2,2019–2019,alias rule,BGD.2.6_1
+BBS yearbooks,Cox's Bazar,Cox's Bazar,12,2012–2017,exact,BGD.2.6_1
+BBS yearbooks,Cox’s Bazar,Cox's Bazar,12,2020–2025,"normalised (case, spacing, punctuation)",BGD.2.6_1
+BBS yearbooks,Comilla,Cumilla,10,2012–2016,alias rule,BGD.2.5_1
+BBS yearbooks,Cumilla,Cumilla,16,2017–2025,exact,BGD.2.5_1
+BBS yearbooks,Dhaka,Dhaka,26,2012–2025,exact,BGD.3.1_1
+BBS yearbooks,Dinajpur,Dinajpur,28,2012–2025,exact,BGD.6.1_1
+BBS yearbooks,Faridpur,Faridpur,26,2012–2025,exact,BGD.3.2_1
+BBS yearbooks,Feni,Feni,26,2012–2025,exact,BGD.2.7_1
+BBS yearbooks,Gaibandha,Gaibandha,28,2012–2025,exact,BGD.6.2_1
+BBS yearbooks,Gazipur,Gazipur,26,2012–2025,exact,BGD.3.3_1
+BBS yearbooks,Gopalganj,Gopalganj,12,2020–2025,exact,BGD.3.4_1
+BBS yearbooks,Gopalgonj,Gopalganj,14,2012–2019,alias rule,BGD.3.4_1
+BBS yearbooks,Habiganj,Habiganj,12,2020–2025,exact,BGD.7.1_1
+BBS yearbooks,Habigonj,Habiganj,2,2014–2014,alias rule,BGD.7.1_1
+BBS yearbooks,Hobigonj,Habiganj,14,2012–2019,alias rule,BGD.7.1_1
+BBS yearbooks,Jamalpur,Jamalpur,24,2012–2025,exact,BGD.8.5_1
+BBS yearbooks,Jamalpur.,Jamalpur,4,2018–2019,"normalised (case, spacing, punctuation)",BGD.8.5_1
+BBS yearbooks,Jashore,Jashore,14,2017–2025,exact,BGD.4.3_1
+BBS yearbooks,Jessore,Jashore,14,2012–2019,alias rule,BGD.4.3_1
+BBS yearbooks,Jhalakathi,Jhalokati,14,2012–2019,alias rule,BGD.1.4_1
+BBS yearbooks,Jhallokati,Jhalokati,12,2020–2025,alias rule,BGD.1.4_1
+BBS yearbooks,Jhenaidah,Jhenaidah,28,2012–2025,exact,BGD.4.4_1
+BBS yearbooks,Joypurhat,Joypurhat,28,2012–2025,exact,BGD.5.2_1
+BBS yearbooks,Khagrachari,Khagrachhari,22,2014–2025,alias rule,BGD.2.8_1
+BBS yearbooks,Khagrachari Region,Khagrachhari,4,2012–2013,single-district region row (verified against 2014 edition),BGD.2.8_1
+BBS yearbooks,Khulna,Khulna,28,2012–2025,exact,BGD.4.5_1
+BBS yearbooks,Kishoreganj,Kishoreganj,12,2020–2025,exact,BGD.3.6_1
+BBS yearbooks,Kishoregonj,Kishoreganj,14,2012–2019,alias rule,BGD.3.6_1
+BBS yearbooks,Kurigram,Kurigram,28,2012–2025,exact,BGD.6.3_1
+BBS yearbooks,Kushtia,Kushtia,24,2012–2025,exact,BGD.4.6_1
+BBS yearbooks,Kustia,Kushtia,4,2018–2019,alias rule,BGD.4.6_1
+BBS yearbooks,Lakshmipur,Lakshmipur,24,2012–2025,exact,BGD.2.9_1
+BBS yearbooks,Laksmipur,Lakshmipur,2,2019–2019,alias rule,BGD.2.9_1
+BBS yearbooks,Lalmonirhat,Lalmonirhat,28,2012–2025,exact,BGD.6.4_1
+BBS yearbooks,Madaripur,Madaripur,26,2012–2025,exact,BGD.3.7_1
+BBS yearbooks,Magura,Magura,28,2012–2025,exact,BGD.4.7_1
+BBS yearbooks,Manikganj,Manikganj,12,2020–2025,exact,BGD.3.8_1
+BBS yearbooks,Manikgonj,Manikganj,14,2012–2019,alias rule,BGD.3.8_1
+BBS yearbooks,Meherpur,Meherpur,28,2012–2025,exact,BGD.4.8_1
+BBS yearbooks,Maulavibazar,Moulvibazar,12,2012–2017,alias rule,BGD.7.2_1
+BBS yearbooks,Maulovibazar,Moulvibazar,4,2018–2019,alias rule,BGD.7.2_1
+BBS yearbooks,Moulvibazar,Moulvibazar,12,2020–2025,exact,BGD.7.2_1
+BBS yearbooks,Munshiganj,Munshiganj,12,2020–2025,exact,BGD.3.9_1
+BBS yearbooks,Munsigonj,Munshiganj,14,2012–2019,alias rule,BGD.3.9_1
+BBS yearbooks,Mymenshing,Mymensingh,4,2014–2015,alias rule,BGD.8.10_1
+BBS yearbooks,Mymenshing Region,Mymensingh,4,2012–2013,single-district region row (verified against 2014 edition),BGD.8.10_1
+BBS yearbooks,Mymensingh,Mymensingh,20,2016–2025,exact,BGD.8.10_1
+BBS yearbooks,Naogaon,Naogaon,18,2014–2025,exact,BGD.5.3_1
+BBS yearbooks,Noagaon,Naogaon,10,2012–2017,alias rule,BGD.5.3_1
+BBS yearbooks,Narail,Narail,28,2012–2025,exact,BGD.4.9_1
+BBS yearbooks,Narayanganj,Narayanganj,14,2019–2025,exact,BGD.3.11_1
+BBS yearbooks,Narayangonj,Narayanganj,12,2012–2017,alias rule,BGD.3.11_1
+BBS yearbooks,Narsingdi,Narsingdi,26,2012–2025,exact,BGD.3.12_1
+BBS yearbooks,Natore,Natore,28,2012–2025,exact,BGD.5.4_1
+BBS yearbooks,Netrokona,Netrokona,28,2012–2025,exact,BGD.8.13_1
+BBS yearbooks,Nilphamari,Nilphamari,28,2012–2025,exact,BGD.6.5_1
+BBS yearbooks,Noakhali,Noakhali,26,2012–2025,exact,BGD.2.10_1
+BBS yearbooks,Pabna,Pabna,28,2012–2025,exact,BGD.5.6_1
+BBS yearbooks,Panchagar,Panchagarh,28,2012–2025,alias rule,BGD.6.6_1
+BBS yearbooks,Patuakhali,Patuakhali,26,2012–2025,exact,BGD.1.5_1
+BBS yearbooks,Perojpur,Pirojpur,12,2012–2017,alias rule,BGD.1.6_1
+BBS yearbooks,Pirojpur,Pirojpur,14,2019–2025,exact,BGD.1.6_1
+BBS yearbooks,Rajbari,Rajbari,26,2012–2025,exact,BGD.3.14_1
+BBS yearbooks,Rajshahi,Rajshahi,28,2012–2025,exact,BGD.5.7_1
+BBS yearbooks,Rangamati,Rangamati,22,2014–2025,exact,BGD.2.11_1
+BBS yearbooks,Rangamati Region,Rangamati,4,2012–2013,single-district region row (verified against 2014 edition),BGD.2.11_1
+BBS yearbooks,Rangpur,Rangpur,28,2012–2025,exact,BGD.6.7_1
+BBS yearbooks,Satkhira,Satkhira,28,2012–2025,exact,BGD.4.10_1
+BBS yearbooks,Shariatpur,Shariatpur,26,2012–2025,exact,BGD.3.15_1
+BBS yearbooks,Sherpur,Sherpur,28,2012–2025,exact,BGD.8.16_1
+BBS yearbooks,Sirajganj,Sirajganj,12,2020–2025,exact,BGD.5.8_1
+BBS yearbooks,Sirajgonj,Sirajganj,16,2012–2019,alias rule,BGD.5.8_1
+BBS yearbooks,Sunamganj,Sunamganj,12,2020–2025,exact,BGD.7.3_1
+BBS yearbooks,Sunamgonj,Sunamganj,16,2012–2019,alias rule,BGD.7.3_1
+BBS yearbooks,Sylhet,Sylhet,28,2012–2025,exact,BGD.7.4_1
+BBS yearbooks,Tangail,Tangail,20,2014–2025,exact,BGD.3.17_1
+BBS yearbooks,Tangail Region,Tangail,4,2012–2013,single-district region row (verified against 2014 edition),BGD.3.17_1
+BBS yearbooks,Thakurgaon,Thakurgaon,28,2012–2025,exact,BGD.6.8_1
+Earth Engine extract (climate),Bagerhat,Bagerhat,15,,exact,BGD.4.1_1
+Earth Engine extract (climate),Bandarban,Bandarban,15,,exact,BGD.2.1_1
+Earth Engine extract (climate),Barguna,Barguna,15,,exact,BGD.1.1_1
+Earth Engine extract (climate),Barisal,Barishal,15,,alias rule,BGD.1.2_1
+Earth Engine extract (climate),Bhola,Bhola,15,,exact,BGD.1.3_1
+Earth Engine extract (climate),Bogura,Bogura,15,,exact,BGD.5.1_1
+Earth Engine extract (climate),Brahmanbaria,Brahmanbaria,15,,exact,BGD.2.2_1
+Earth Engine extract (climate),Chandpur,Chandpur,15,,exact,BGD.2.3_1
+Earth Engine extract (climate),Chapai Nawabganj,Chapai Nawabganj,15,,exact,BGD.5.5_1
+Earth Engine extract (climate),Chattogram,Chattogram,15,,exact,BGD.2.4_1
+Earth Engine extract (climate),Chuadanga,Chuadanga,15,,exact,BGD.4.2_1
+Earth Engine extract (climate),Cox's Bazar,Cox's Bazar,15,,exact,BGD.2.6_1
+Earth Engine extract (climate),Cumilla,Cumilla,15,,exact,BGD.2.5_1
+Earth Engine extract (climate),Dhaka,Dhaka,15,,exact,BGD.3.1_1
+Earth Engine extract (climate),Dinajpur,Dinajpur,15,,exact,BGD.6.1_1
+Earth Engine extract (climate),Faridpur,Faridpur,15,,exact,BGD.3.2_1
+Earth Engine extract (climate),Feni,Feni,15,,exact,BGD.2.7_1
+Earth Engine extract (climate),Gaibandha,Gaibandha,15,,exact,BGD.6.2_1
+Earth Engine extract (climate),Gazipur,Gazipur,15,,exact,BGD.3.3_1
+Earth Engine extract (climate),Gopalganj,Gopalganj,15,,exact,BGD.3.4_1
+Earth Engine extract (climate),Habiganj,Habiganj,15,,exact,BGD.7.1_1
+Earth Engine extract (climate),Jamalpur,Jamalpur,15,,exact,BGD.8.5_1
+Earth Engine extract (climate),Jashore,Jashore,15,,exact,BGD.4.3_1
+Earth Engine extract (climate),Jhalokati,Jhalokati,15,,exact,BGD.1.4_1
+Earth Engine extract (climate),Jhenaidah,Jhenaidah,15,,exact,BGD.4.4_1
+Earth Engine extract (climate),Joypurhat,Joypurhat,15,,exact,BGD.5.2_1
+Earth Engine extract (climate),Khagrachhari,Khagrachhari,15,,exact,BGD.2.8_1
+Earth Engine extract (climate),Khulna,Khulna,15,,exact,BGD.4.5_1
+Earth Engine extract (climate),Kishoreganj,Kishoreganj,15,,exact,BGD.3.6_1
+Earth Engine extract (climate),Kurigram,Kurigram,15,,exact,BGD.6.3_1
+Earth Engine extract (climate),Kushtia,Kushtia,15,,exact,BGD.4.6_1
+Earth Engine extract (climate),Lakshmipur,Lakshmipur,15,,exact,BGD.2.9_1
+Earth Engine extract (climate),Lalmonirhat,Lalmonirhat,15,,exact,BGD.6.4_1
+Earth Engine extract (climate),Madaripur,Madaripur,15,,exact,BGD.3.7_1
+Earth Engine extract (climate),Magura,Magura,15,,exact,BGD.4.7_1
+Earth Engine extract (climate),Manikganj,Manikganj,15,,exact,BGD.3.8_1
+Earth Engine extract (climate),Meherpur,Meherpur,15,,exact,BGD.4.8_1
+Earth Engine extract (climate),Moulvibazar,Moulvibazar,15,,exact,BGD.7.2_1
+Earth Engine extract (climate),Munshiganj,Munshiganj,15,,exact,BGD.3.9_1
+Earth Engine extract (climate),Mymensingh,Mymensingh,15,,exact,BGD.8.10_1
+Earth Engine extract (climate),Naogaon,Naogaon,15,,exact,BGD.5.3_1
+Earth Engine extract (climate),Narail,Narail,15,,exact,BGD.4.9_1
+Earth Engine extract (climate),Narayanganj,Narayanganj,15,,exact,BGD.3.11_1
+Earth Engine extract (climate),Narsingdi,Narsingdi,15,,exact,BGD.3.12_1
+Earth Engine extract (climate),Natore,Natore,15,,exact,BGD.5.4_1
+Earth Engine extract (climate),Netrokona,Netrokona,15,,exact,BGD.8.13_1
+Earth Engine extract (climate),Nilphamari,Nilphamari,15,,exact,BGD.6.5_1
+Earth Engine extract (climate),Noakhali,Noakhali,15,,exact,BGD.2.10_1
+Earth Engine extract (climate),Pabna,Pabna,15,,exact,BGD.5.6_1
+Earth Engine extract (climate),Panchagarh,Panchagarh,15,,exact,BGD.6.6_1
+Earth Engine extract (climate),Patuakhali,Patuakhali,15,,exact,BGD.1.5_1
+Earth Engine extract (climate),Pirojpur,Pirojpur,15,,exact,BGD.1.6_1
+Earth Engine extract (climate),Rajbari,Rajbari,15,,exact,BGD.3.14_1
+Earth Engine extract (climate),Rajshahi,Rajshahi,15,,exact,BGD.5.7_1
+Earth Engine extract (climate),Rangamati,Rangamati,15,,exact,BGD.2.11_1
+Earth Engine extract (climate),Rangpur,Rangpur,15,,exact,BGD.6.7_1
+Earth Engine extract (climate),Satkhira,Satkhira,15,,exact,BGD.4.10_1
+Earth Engine extract (climate),Shariatpur,Shariatpur,15,,exact,BGD.3.15_1
+Earth Engine extract (climate),Sherpur,Sherpur,15,,exact,BGD.8.16_1
+Earth Engine extract (climate),Sirajganj,Sirajganj,15,,exact,BGD.5.8_1
+Earth Engine extract (climate),Sunamganj,Sunamganj,15,,exact,BGD.7.3_1
+Earth Engine extract (climate),Sylhet,Sylhet,15,,exact,BGD.7.4_1
+Earth Engine extract (climate),Tangail,Tangail,15,,exact,BGD.3.17_1
+Earth Engine extract (climate),Thakurgaon,Thakurgaon,15,,exact,BGD.6.8_1
+Earth Engine extract (jrc),Bagerhat,Bagerhat,12,,exact,BGD.4.1_1
+Earth Engine extract (jrc),Bandarban,Bandarban,12,,exact,BGD.2.1_1
+Earth Engine extract (jrc),Barguna,Barguna,12,,exact,BGD.1.1_1
+Earth Engine extract (jrc),Barisal,Barishal,12,,alias rule,BGD.1.2_1
+Earth Engine extract (jrc),Bhola,Bhola,12,,exact,BGD.1.3_1
+Earth Engine extract (jrc),Bogura,Bogura,12,,exact,BGD.5.1_1
+Earth Engine extract (jrc),Brahmanbaria,Brahmanbaria,12,,exact,BGD.2.2_1
+Earth Engine extract (jrc),Chandpur,Chandpur,12,,exact,BGD.2.3_1
+Earth Engine extract (jrc),Chapai Nawabganj,Chapai Nawabganj,12,,exact,BGD.5.5_1
+Earth Engine extract (jrc),Chattogram,Chattogram,12,,exact,BGD.2.4_1
+Earth Engine extract (jrc),Chuadanga,Chuadanga,12,,exact,BGD.4.2_1
+Earth Engine extract (jrc),Cox's Bazar,Cox's Bazar,12,,exact,BGD.2.6_1
+Earth Engine extract (jrc),Cumilla,Cumilla,12,,exact,BGD.2.5_1
+Earth Engine extract (jrc),Dhaka,Dhaka,12,,exact,BGD.3.1_1
+Earth Engine extract (jrc),Dinajpur,Dinajpur,12,,exact,BGD.6.1_1
+Earth Engine extract (jrc),Faridpur,Faridpur,12,,exact,BGD.3.2_1
+Earth Engine extract (jrc),Feni,Feni,12,,exact,BGD.2.7_1
+Earth Engine extract (jrc),Gaibandha,Gaibandha,12,,exact,BGD.6.2_1
+Earth Engine extract (jrc),Gazipur,Gazipur,12,,exact,BGD.3.3_1
+Earth Engine extract (jrc),Gopalganj,Gopalganj,12,,exact,BGD.3.4_1
+Earth Engine extract (jrc),Habiganj,Habiganj,12,,exact,BGD.7.1_1
+Earth Engine extract (jrc),Jamalpur,Jamalpur,12,,exact,BGD.8.5_1
+Earth Engine extract (jrc),Jashore,Jashore,12,,exact,BGD.4.3_1
+Earth Engine extract (jrc),Jhalokati,Jhalokati,12,,exact,BGD.1.4_1
+Earth Engine extract (jrc),Jhenaidah,Jhenaidah,12,,exact,BGD.4.4_1
+Earth Engine extract (jrc),Joypurhat,Joypurhat,12,,exact,BGD.5.2_1
+Earth Engine extract (jrc),Khagrachhari,Khagrachhari,12,,exact,BGD.2.8_1
+Earth Engine extract (jrc),Khulna,Khulna,12,,exact,BGD.4.5_1
+Earth Engine extract (jrc),Kishoreganj,Kishoreganj,12,,exact,BGD.3.6_1
+Earth Engine extract (jrc),Kurigram,Kurigram,12,,exact,BGD.6.3_1
+Earth Engine extract (jrc),Kushtia,Kushtia,12,,exact,BGD.4.6_1
+Earth Engine extract (jrc),Lakshmipur,Lakshmipur,12,,exact,BGD.2.9_1
+Earth Engine extract (jrc),Lalmonirhat,Lalmonirhat,12,,exact,BGD.6.4_1
+Earth Engine extract (jrc),Madaripur,Madaripur,12,,exact,BGD.3.7_1
+Earth Engine extract (jrc),Magura,Magura,12,,exact,BGD.4.7_1
+Earth Engine extract (jrc),Manikganj,Manikganj,12,,exact,BGD.3.8_1
+Earth Engine extract (jrc),Meherpur,Meherpur,12,,exact,BGD.4.8_1
+Earth Engine extract (jrc),Moulvibazar,Moulvibazar,12,,exact,BGD.7.2_1
+Earth Engine extract (jrc),Munshiganj,Munshiganj,12,,exact,BGD.3.9_1
+Earth Engine extract (jrc),Mymensingh,Mymensingh,12,,exact,BGD.8.10_1
+Earth Engine extract (jrc),Naogaon,Naogaon,12,,exact,BGD.5.3_1
+Earth Engine extract (jrc),Narail,Narail,12,,exact,BGD.4.9_1
+Earth Engine extract (jrc),Narayanganj,Narayanganj,12,,exact,BGD.3.11_1
+Earth Engine extract (jrc),Narsingdi,Narsingdi,12,,exact,BGD.3.12_1
+Earth Engine extract (jrc),Natore,Natore,12,,exact,BGD.5.4_1
+Earth Engine extract (jrc),Netrokona,Netrokona,12,,exact,BGD.8.13_1
+Earth Engine extract (jrc),Nilphamari,Nilphamari,12,,exact,BGD.6.5_1
+Earth Engine extract (jrc),Noakhali,Noakhali,12,,exact,BGD.2.10_1
+Earth Engine extract (jrc),Pabna,Pabna,12,,exact,BGD.5.6_1
+Earth Engine extract (jrc),Panchagarh,Panchagarh,12,,exact,BGD.6.6_1
+Earth Engine extract (jrc),Patuakhali,Patuakhali,12,,exact,BGD.1.5_1
+Earth Engine extract (jrc),Pirojpur,Pirojpur,12,,exact,BGD.1.6_1
+Earth Engine extract (jrc),Rajbari,Rajbari,12,,exact,BGD.3.14_1
+Earth Engine extract (jrc),Rajshahi,Rajshahi,12,,exact,BGD.5.7_1
+Earth Engine extract (jrc),Rangamati,Rangamati,12,,exact,BGD.2.11_1
+Earth Engine extract (jrc),Rangpur,Rangpur,12,,exact,BGD.6.7_1
+Earth Engine extract (jrc),Satkhira,Satkhira,12,,exact,BGD.4.10_1
+Earth Engine extract (jrc),Shariatpur,Shariatpur,12,,exact,BGD.3.15_1
+Earth Engine extract (jrc),Sherpur,Sherpur,12,,exact,BGD.8.16_1
+Earth Engine extract (jrc),Sirajganj,Sirajganj,12,,exact,BGD.5.8_1
+Earth Engine extract (jrc),Sunamganj,Sunamganj,12,,exact,BGD.7.3_1
+Earth Engine extract (jrc),Sylhet,Sylhet,12,,exact,BGD.7.4_1
+Earth Engine extract (jrc),Tangail,Tangail,12,,exact,BGD.3.17_1
+Earth Engine extract (jrc),Thakurgaon,Thakurgaon,12,,exact,BGD.6.8_1
+Earth Engine extract (ndvi),Bagerhat,Bagerhat,15,,exact,BGD.4.1_1
+Earth Engine extract (ndvi),Bandarban,Bandarban,15,,exact,BGD.2.1_1
+Earth Engine extract (ndvi),Barguna,Barguna,15,,exact,BGD.1.1_1
+Earth Engine extract (ndvi),Barisal,Barishal,15,,alias rule,BGD.1.2_1
+Earth Engine extract (ndvi),Bhola,Bhola,15,,exact,BGD.1.3_1
+Earth Engine extract (ndvi),Bogura,Bogura,15,,exact,BGD.5.1_1
+Earth Engine extract (ndvi),Brahmanbaria,Brahmanbaria,15,,exact,BGD.2.2_1
+Earth Engine extract (ndvi),Chandpur,Chandpur,15,,exact,BGD.2.3_1
+Earth Engine extract (ndvi),Chapai Nawabganj,Chapai Nawabganj,15,,exact,BGD.5.5_1
+Earth Engine extract (ndvi),Chattogram,Chattogram,15,,exact,BGD.2.4_1
+Earth Engine extract (ndvi),Chuadanga,Chuadanga,15,,exact,BGD.4.2_1
+Earth Engine extract (ndvi),Cox's Bazar,Cox's Bazar,15,,exact,BGD.2.6_1
+Earth Engine extract (ndvi),Cumilla,Cumilla,15,,exact,BGD.2.5_1
+Earth Engine extract (ndvi),Dhaka,Dhaka,15,,exact,BGD.3.1_1
+Earth Engine extract (ndvi),Dinajpur,Dinajpur,15,,exact,BGD.6.1_1
+Earth Engine extract (ndvi),Faridpur,Faridpur,15,,exact,BGD.3.2_1
+Earth Engine extract (ndvi),Feni,Feni,15,,exact,BGD.2.7_1
+Earth Engine extract (ndvi),Gaibandha,Gaibandha,15,,exact,BGD.6.2_1
+Earth Engine extract (ndvi),Gazipur,Gazipur,15,,exact,BGD.3.3_1
+Earth Engine extract (ndvi),Gopalganj,Gopalganj,15,,exact,BGD.3.4_1
+Earth Engine extract (ndvi),Habiganj,Habiganj,15,,exact,BGD.7.1_1
+Earth Engine extract (ndvi),Jamalpur,Jamalpur,15,,exact,BGD.8.5_1
+Earth Engine extract (ndvi),Jashore,Jashore,15,,exact,BGD.4.3_1
+Earth Engine extract (ndvi),Jhalokati,Jhalokati,15,,exact,BGD.1.4_1
+Earth Engine extract (ndvi),Jhenaidah,Jhenaidah,15,,exact,BGD.4.4_1
+Earth Engine extract (ndvi),Joypurhat,Joypurhat,15,,exact,BGD.5.2_1
+Earth Engine extract (ndvi),Khagrachhari,Khagrachhari,15,,exact,BGD.2.8_1
+Earth Engine extract (ndvi),Khulna,Khulna,15,,exact,BGD.4.5_1
+Earth Engine extract (ndvi),Kishoreganj,Kishoreganj,15,,exact,BGD.3.6_1
+Earth Engine extract (ndvi),Kurigram,Kurigram,15,,exact,BGD.6.3_1
+Earth Engine extract (ndvi),Kushtia,Kushtia,15,,exact,BGD.4.6_1
+Earth Engine extract (ndvi),Lakshmipur,Lakshmipur,15,,exact,BGD.2.9_1
+Earth Engine extract (ndvi),Lalmonirhat,Lalmonirhat,15,,exact,BGD.6.4_1
+Earth Engine extract (ndvi),Madaripur,Madaripur,15,,exact,BGD.3.7_1
+Earth Engine extract (ndvi),Magura,Magura,15,,exact,BGD.4.7_1
+Earth Engine extract (ndvi),Manikganj,Manikganj,15,,exact,BGD.3.8_1
+Earth Engine extract (ndvi),Meherpur,Meherpur,15,,exact,BGD.4.8_1
+Earth Engine extract (ndvi),Moulvibazar,Moulvibazar,15,,exact,BGD.7.2_1
+Earth Engine extract (ndvi),Munshiganj,Munshiganj,15,,exact,BGD.3.9_1
+Earth Engine extract (ndvi),Mymensingh,Mymensingh,15,,exact,BGD.8.10_1
+Earth Engine extract (ndvi),Naogaon,Naogaon,15,,exact,BGD.5.3_1
+Earth Engine extract (ndvi),Narail,Narail,15,,exact,BGD.4.9_1
+Earth Engine extract (ndvi),Narayanganj,Narayanganj,15,,exact,BGD.3.11_1
+Earth Engine extract (ndvi),Narsingdi,Narsingdi,15,,exact,BGD.3.12_1
+Earth Engine extract (ndvi),Natore,Natore,15,,exact,BGD.5.4_1
+Earth Engine extract (ndvi),Netrokona,Netrokona,15,,exact,BGD.8.13_1
+Earth Engine extract (ndvi),Nilphamari,Nilphamari,15,,exact,BGD.6.5_1
+Earth Engine extract (ndvi),Noakhali,Noakhali,15,,exact,BGD.2.10_1
+Earth Engine extract (ndvi),Pabna,Pabna,15,,exact,BGD.5.6_1
+Earth Engine extract (ndvi),Panchagarh,Panchagarh,15,,exact,BGD.6.6_1
+Earth Engine extract (ndvi),Patuakhali,Patuakhali,15,,exact,BGD.1.5_1
+Earth Engine extract (ndvi),Pirojpur,Pirojpur,15,,exact,BGD.1.6_1
+Earth Engine extract (ndvi),Rajbari,Rajbari,15,,exact,BGD.3.14_1
+Earth Engine extract (ndvi),Rajshahi,Rajshahi,15,,exact,BGD.5.7_1
+Earth Engine extract (ndvi),Rangamati,Rangamati,15,,exact,BGD.2.11_1
+Earth Engine extract (ndvi),Rangpur,Rangpur,15,,exact,BGD.6.7_1
+Earth Engine extract (ndvi),Satkhira,Satkhira,15,,exact,BGD.4.10_1
+Earth Engine extract (ndvi),Shariatpur,Shariatpur,15,,exact,BGD.3.15_1
+Earth Engine extract (ndvi),Sherpur,Sherpur,15,,exact,BGD.8.16_1
+Earth Engine extract (ndvi),Sirajganj,Sirajganj,15,,exact,BGD.5.8_1
+Earth Engine extract (ndvi),Sunamganj,Sunamganj,15,,exact,BGD.7.3_1
+Earth Engine extract (ndvi),Sylhet,Sylhet,15,,exact,BGD.7.4_1
+Earth Engine extract (ndvi),Tangail,Tangail,15,,exact,BGD.3.17_1
+Earth Engine extract (ndvi),Thakurgaon,Thakurgaon,15,,exact,BGD.6.8_1
+Earth Engine extract (s1),Bagerhat,Bagerhat,11,,exact,BGD.4.1_1
+Earth Engine extract (s1),Bandarban,Bandarban,11,,exact,BGD.2.1_1
+Earth Engine extract (s1),Barguna,Barguna,11,,exact,BGD.1.1_1
+Earth Engine extract (s1),Barisal,Barishal,10,,alias rule,BGD.1.2_1
+Earth Engine extract (s1),Barishal,Barishal,1,,exact,BGD.1.2_1
+Earth Engine extract (s1),Bhola,Bhola,11,,exact,BGD.1.3_1
+Earth Engine extract (s1),Bogura,Bogura,11,,exact,BGD.5.1_1
+Earth Engine extract (s1),Brahmanbaria,Brahmanbaria,11,,exact,BGD.2.2_1
+Earth Engine extract (s1),Chandpur,Chandpur,11,,exact,BGD.2.3_1
+Earth Engine extract (s1),Chapai Nawabganj,Chapai Nawabganj,11,,exact,BGD.5.5_1
+Earth Engine extract (s1),Chattogram,Chattogram,11,,exact,BGD.2.4_1
+Earth Engine extract (s1),Chuadanga,Chuadanga,11,,exact,BGD.4.2_1
+Earth Engine extract (s1),Cox's Bazar,Cox's Bazar,11,,exact,BGD.2.6_1
+Earth Engine extract (s1),Cumilla,Cumilla,11,,exact,BGD.2.5_1
+Earth Engine extract (s1),Dhaka,Dhaka,11,,exact,BGD.3.1_1
+Earth Engine extract (s1),Dinajpur,Dinajpur,11,,exact,BGD.6.1_1
+Earth Engine extract (s1),Faridpur,Faridpur,11,,exact,BGD.3.2_1
+Earth Engine extract (s1),Feni,Feni,11,,exact,BGD.2.7_1
+Earth Engine extract (s1),Gaibandha,Gaibandha,11,,exact,BGD.6.2_1
+Earth Engine extract (s1),Gazipur,Gazipur,11,,exact,BGD.3.3_1
+Earth Engine extract (s1),Gopalganj,Gopalganj,11,,exact,BGD.3.4_1
+Earth Engine extract (s1),Habiganj,Habiganj,11,,exact,BGD.7.1_1
+Earth Engine extract (s1),Jamalpur,Jamalpur,11,,exact,BGD.8.5_1
+Earth Engine extract (s1),Jashore,Jashore,11,,exact,BGD.4.3_1
+Earth Engine extract (s1),Jhalokati,Jhalokati,11,,exact,BGD.1.4_1
+Earth Engine extract (s1),Jhenaidah,Jhenaidah,11,,exact,BGD.4.4_1
+Earth Engine extract (s1),Joypurhat,Joypurhat,11,,exact,BGD.5.2_1
+Earth Engine extract (s1),Khagrachhari,Khagrachhari,11,,exact,BGD.2.8_1
+Earth Engine extract (s1),Khulna,Khulna,11,,exact,BGD.4.5_1
+Earth Engine extract (s1),Kishoreganj,Kishoreganj,11,,exact,BGD.3.6_1
+Earth Engine extract (s1),Kurigram,Kurigram,11,,exact,BGD.6.3_1
+Earth Engine extract (s1),Kushtia,Kushtia,11,,exact,BGD.4.6_1
+Earth Engine extract (s1),Lakshmipur,Lakshmipur,11,,exact,BGD.2.9_1
+Earth Engine extract (s1),Lalmonirhat,Lalmonirhat,11,,exact,BGD.6.4_1
+Earth Engine extract (s1),Madaripur,Madaripur,11,,exact,BGD.3.7_1
+Earth Engine extract (s1),Magura,Magura,11,,exact,BGD.4.7_1
+Earth Engine extract (s1),Manikganj,Manikganj,11,,exact,BGD.3.8_1
+Earth Engine extract (s1),Meherpur,Meherpur,11,,exact,BGD.4.8_1
+Earth Engine extract (s1),Moulvibazar,Moulvibazar,11,,exact,BGD.7.2_1
+Earth Engine extract (s1),Munshiganj,Munshiganj,11,,exact,BGD.3.9_1
+Earth Engine extract (s1),Mymensingh,Mymensingh,11,,exact,BGD.8.10_1
+Earth Engine extract (s1),Naogaon,Naogaon,11,,exact,BGD.5.3_1
+Earth Engine extract (s1),Narail,Narail,11,,exact,BGD.4.9_1
+Earth Engine extract (s1),Narayanganj,Narayanganj,11,,exact,BGD.3.11_1
+Earth Engine extract (s1),Narsingdi,Narsingdi,11,,exact,BGD.3.12_1
+Earth Engine extract (s1),Natore,Natore,11,,exact,BGD.5.4_1
+Earth Engine extract (s1),Netrokona,Netrokona,11,,exact,BGD.8.13_1
+Earth Engine extract (s1),Nilphamari,Nilphamari,11,,exact,BGD.6.5_1
+Earth Engine extract (s1),Noakhali,Noakhali,11,,exact,BGD.2.10_1
+Earth Engine extract (s1),Pabna,Pabna,11,,exact,BGD.5.6_1
+Earth Engine extract (s1),Panchagarh,Panchagarh,11,,exact,BGD.6.6_1
+Earth Engine extract (s1),Patuakhali,Patuakhali,11,,exact,BGD.1.5_1
+Earth Engine extract (s1),Pirojpur,Pirojpur,11,,exact,BGD.1.6_1
+Earth Engine extract (s1),Rajbari,Rajbari,11,,exact,BGD.3.14_1
+Earth Engine extract (s1),Rajshahi,Rajshahi,11,,exact,BGD.5.7_1
+Earth Engine extract (s1),Rangamati,Rangamati,11,,exact,BGD.2.11_1
+Earth Engine extract (s1),Rangpur,Rangpur,11,,exact,BGD.6.7_1
+Earth Engine extract (s1),Satkhira,Satkhira,11,,exact,BGD.4.10_1
+Earth Engine extract (s1),Shariatpur,Shariatpur,11,,exact,BGD.3.15_1
+Earth Engine extract (s1),Sherpur,Sherpur,11,,exact,BGD.8.16_1
+Earth Engine extract (s1),Sirajganj,Sirajganj,11,,exact,BGD.5.8_1
+Earth Engine extract (s1),Sunamganj,Sunamganj,11,,exact,BGD.7.3_1
+Earth Engine extract (s1),Sylhet,Sylhet,11,,exact,BGD.7.4_1
+Earth Engine extract (s1),Tangail,Tangail,11,,exact,BGD.3.17_1
+Earth Engine extract (s1),Thakurgaon,Thakurgaon,11,,exact,BGD.6.8_1
+GADM v4.1,Bagerhat,Bagerhat,1,,exact,BGD.4.1_1
+GADM v4.1,Bandarban,Bandarban,1,,exact,BGD.2.1_1
+GADM v4.1,Barguna,Barguna,1,,exact,BGD.1.1_1
+GADM v4.1,Barisal,Barishal,1,,alias rule,BGD.1.2_1
+GADM v4.1,Bhola,Bhola,1,,exact,BGD.1.3_1
+GADM v4.1,Bogra,Bogura,1,,alias rule,BGD.5.1_1
+GADM v4.1,Brahamanbaria,Brahmanbaria,1,,alias rule,BGD.2.2_1
+GADM v4.1,Chandpur,Chandpur,1,,exact,BGD.2.3_1
+GADM v4.1,Nawabganj,Chapai Nawabganj,1,,alias rule,BGD.5.5_1
+GADM v4.1,Chittagong,Chattogram,1,,alias rule,BGD.2.4_1
+GADM v4.1,Chuadanga,Chuadanga,1,,exact,BGD.4.2_1
+GADM v4.1,Cox'S Bazar,Cox's Bazar,1,,"normalised (case, spacing, punctuation)",BGD.2.6_1
+GADM v4.1,Comilla,Cumilla,1,,alias rule,BGD.2.5_1
+GADM v4.1,Dhaka,Dhaka,1,,exact,BGD.3.1_1
+GADM v4.1,Dinajpur,Dinajpur,1,,exact,BGD.6.1_1
+GADM v4.1,Faridpur,Faridpur,1,,exact,BGD.3.2_1
+GADM v4.1,Feni,Feni,1,,exact,BGD.2.7_1
+GADM v4.1,Gaibandha,Gaibandha,1,,exact,BGD.6.2_1
+GADM v4.1,Gazipur,Gazipur,1,,exact,BGD.3.3_1
+GADM v4.1,Gopalganj,Gopalganj,1,,exact,BGD.3.4_1
+GADM v4.1,Habiganj,Habiganj,1,,exact,BGD.7.1_1
+GADM v4.1,Jamalpur,Jamalpur,1,,exact,BGD.8.5_1
+GADM v4.1,Jessore,Jashore,1,,alias rule,BGD.4.3_1
+GADM v4.1,Jhalokati,Jhalokati,1,,exact,BGD.1.4_1
+GADM v4.1,Jhenaidah,Jhenaidah,1,,exact,BGD.4.4_1
+GADM v4.1,Joypurhat,Joypurhat,1,,exact,BGD.5.2_1
+GADM v4.1,Khagrachhari,Khagrachhari,1,,exact,BGD.2.8_1
+GADM v4.1,Khulna,Khulna,1,,exact,BGD.4.5_1
+GADM v4.1,Kishoreganj,Kishoreganj,1,,exact,BGD.3.6_1
+GADM v4.1,Kurigram,Kurigram,1,,exact,BGD.6.3_1
+GADM v4.1,Kushtia,Kushtia,1,,exact,BGD.4.6_1
+GADM v4.1,Lakshmipur,Lakshmipur,1,,exact,BGD.2.9_1
+GADM v4.1,Lalmonirhat,Lalmonirhat,1,,exact,BGD.6.4_1
+GADM v4.1,Madaripur,Madaripur,1,,exact,BGD.3.7_1
+GADM v4.1,Magura,Magura,1,,exact,BGD.4.7_1
+GADM v4.1,Manikganj,Manikganj,1,,exact,BGD.3.8_1
+GADM v4.1,Meherpur,Meherpur,1,,exact,BGD.4.8_1
+GADM v4.1,Maulvibazar,Moulvibazar,1,,alias rule,BGD.7.2_1
+GADM v4.1,Munshiganj,Munshiganj,1,,exact,BGD.3.9_1
+GADM v4.1,Mymensingh,Mymensingh,1,,exact,BGD.8.10_1
+GADM v4.1,Naogaon,Naogaon,1,,exact,BGD.5.3_1
+GADM v4.1,Narail,Narail,1,,exact,BGD.4.9_1
+GADM v4.1,Narayanganj,Narayanganj,1,,exact,BGD.3.11_1
+GADM v4.1,Narsingdi,Narsingdi,1,,exact,BGD.3.12_1
+GADM v4.1,Natore,Natore,1,,exact,BGD.5.4_1
+GADM v4.1,Netrakona,Netrokona,1,,alias rule,BGD.8.13_1
+GADM v4.1,Nilphamari,Nilphamari,1,,exact,BGD.6.5_1
+GADM v4.1,Noakhali,Noakhali,1,,exact,BGD.2.10_1
+GADM v4.1,Pabna,Pabna,1,,exact,BGD.5.6_1
+GADM v4.1,Panchagarh,Panchagarh,1,,exact,BGD.6.6_1
+GADM v4.1,Patuakhali,Patuakhali,1,,exact,BGD.1.5_1
+GADM v4.1,Pirojpur,Pirojpur,1,,exact,BGD.1.6_1
+GADM v4.1,Rajbari,Rajbari,1,,exact,BGD.3.14_1
+GADM v4.1,Rajshahi,Rajshahi,1,,exact,BGD.5.7_1
+GADM v4.1,Rangamati,Rangamati,1,,exact,BGD.2.11_1
+GADM v4.1,Rangpur,Rangpur,1,,exact,BGD.6.7_1
+GADM v4.1,Satkhira,Satkhira,1,,exact,BGD.4.10_1
+GADM v4.1,Shariatpur,Shariatpur,1,,exact,BGD.3.15_1
+GADM v4.1,Sherpur,Sherpur,1,,exact,BGD.8.16_1
+GADM v4.1,Sirajganj,Sirajganj,1,,exact,BGD.5.8_1
+GADM v4.1,Sunamganj,Sunamganj,1,,exact,BGD.7.3_1
+GADM v4.1,Sylhet,Sylhet,1,,exact,BGD.7.4_1
+GADM v4.1,Tangail,Tangail,1,,exact,BGD.3.17_1
+GADM v4.1,Thakurgaon,Thakurgaon,1,,exact,BGD.6.8_1

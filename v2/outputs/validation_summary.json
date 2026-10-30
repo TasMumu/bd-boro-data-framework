@@ -1,0 +1,37 @@
+{
+ "checks": 108,
+ "by_status": {
+  "PASS": 107,
+  "INFO": 1
+ },
+ "by_category": {
+  "cross-source": {
+   "INFO": 1,
+   "PASS": 7
+  },
+  "geographic": {
+   "INFO": 0,
+   "PASS": 13
+  },
+  "lineage": {
+   "INFO": 0,
+   "PASS": 3
+  },
+  "relational": {
+   "INFO": 0,
+   "PASS": 39
+  },
+  "structural": {
+   "INFO": 0,
+   "PASS": 15
+  },
+  "temporal": {
+   "INFO": 0,
+   "PASS": 14
+  },
+  "value": {
+   "INFO": 0,
+   "PASS": 16
+  }
+ }
+}

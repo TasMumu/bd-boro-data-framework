@@ -1,0 +1,2616 @@
+{
+ "bbs2026": {
+  "type": "report",
+  "authors": [
+   {
+    "family": "Bangladesh Bureau of Statistics",
+    "given": ""
+   }
+  ],
+  "year": 2026,
+  "title": "Yearbook of Agricultural Statistics-2025 (37th series)",
+  "publisher": "Statistics and Informatics Division, Ministry of Planning, Dhaka"
+ },
+ "bbs2013": {
+  "type": "report",
+  "authors": [
+   {
+    "family": "Bangladesh Bureau of Statistics",
+    "given": ""
+   }
+  ],
+  "year": "2013–2025",
+  "title": "Yearbook of Agricultural Statistics of Bangladesh, 2012–2024 editions (24th–36th series)",
+  "publisher": "Statistics and Informatics Division, Ministry of Planning, Dhaka"
+ },
+ "armbrust2021": {
+  "type": "paper-conference",
+  "authors": [
+   {
+    "family": "Armbrust",
+    "given": "Michael"
+   },
+   {
+    "family": "Ghodsi",
+    "given": "Ali"
+   },
+   {
+    "family": "Xin",
+    "given": "Reynold"
+   },
+   {
+    "family": "Zaharia",
+    "given": "Matei"
+   }
+  ],
+  "year": 2021,
+  "title": "Lakehouse: a new generation of open platforms that unify data warehousing and advanced analytics",
+  "container": "Proceedings of the 11th Conference on Innovative Data Systems Research (CIDR)"
+ },
+ "oecd2008": {
+  "type": "book",
+  "authors": [
+   {
+    "family": "OECD",
+    "given": ""
+   },
+   {
+    "family": "European Commission Joint Research Centre",
+    "given": ""
+   }
+  ],
+  "year": 2008,
+  "title": "Handbook on Constructing Composite Indicators: Methodology and User Guide",
+  "publisher": "OECD Publishing, Paris",
+  "doi": "10.1787/9789264043466-en"
+ },
+ "gadm2022": {
+  "type": "dataset",
+  "authors": [
+   {
+    "family": "GADM",
+    "given": ""
+   }
+  ],
+  "year": 2022,
+  "title": "Database of Global Administrative Areas, version 4.1",
+  "publisher": "https://gadm.org"
+ },
+ "wilkinson2016": {
+  "type": "journal-article",
+  "doi": "10.1038/sdata.2016.18",
+  "authors": [
+   {
+    "family": "Wilkinson",
+    "given": "Mark D."
+   },
+   {
+    "family": "Dumontier",
+    "given": "Michel"
+   },
+   {
+    "family": "Aalbersberg",
+    "given": "IJsbrand Jan"
+   },
+   {
+    "family": "Appleton",
+    "given": "Gabrielle"
+   },
+   {
+    "family": "Axton",
+    "given": "Myles"
+   },
+   {
+    "family": "Baak",
+    "given": "Arie"
+   },
+   {
+    "family": "Blomberg",
+    "given": "Niklas"
+   },
+   {
+    "family": "Boiten",
+    "given": "Jan-Willem"
+   },
+   {
+    "family": "da Silva Santos",
+    "given": "Luiz Bonino"
+   },
+   {
+    "family": "Bourne",
+    "given": "Philip E."
+   },
+   {
+    "family": "Bouwman",
+    "given": "Jildau"
+   },
+   {
+    "family": "Brookes",
+    "given": "Anthony J."
+   },
+   {
+    "family": "Clark",
+    "given": "Tim"
+   },
+   {
+    "family": "Crosas",
+    "given": "Mercè"
+   },
+   {
+    "family": "Dillo",
+    "given": "Ingrid"
+   },
+   {
+    "family": "Dumon",
+    "given": "Olivier"
+   },
+   {
+    "family": "Edmunds",
+    "given": "Scott"
+   },
+   {
+    "family": "Evelo",
+    "given": "Chris T."
+   },
+   {
+    "family": "Finkers",
+    "given": "Richard"
+   },
+   {
+    "family": "Gonzalez-Beltran",
+    "given": "Alejandra"
+   },
+   {
+    "family": "Gray",
+    "given": "Alasdair J.G."
+   },
+   {
+    "family": "Groth",
+    "given": "Paul"
+   },
+   {
+    "family": "Goble",
+    "given": "Carole"
+   },
+   {
+    "family": "Grethe",
+    "given": "Jeffrey S."
+   },
+   {
+    "family": "Heringa",
+    "given": "Jaap"
+   },
+   {
+    "family": "’t Hoen",
+    "given": "Peter A.C"
+   },
+   {
+    "family": "Hooft",
+    "given": "Rob"
+   },
+   {
+    "family": "Kuhn",
+    "given": "Tobias"
+   },
+   {
+    "family": "Kok",
+    "given": "Ruben"
+   },
+   {
+    "family": "Kok",
+    "given": "Joost"
+   },
+   {
+    "family": "Lusher",
+    "given": "Scott J."
+   },
+   {
+    "family": "Martone",
+    "given": "Maryann E."
+   },
+   {
+    "family": "Mons",
+    "given": "Albert"
+   },
+   {
+    "family": "Packer",
+    "given": "Abel L."
+   },
+   {
+    "family": "Persson",
+    "given": "Bengt"
+   },
+   {
+    "family": "Rocca-Serra",
+    "given": "Philippe"
+   },
+   {
+    "family": "Roos",
+    "given": "Marco"
+   },
+   {
+    "family": "van Schaik",
+    "given": "Rene"
+   },
+   {
+    "family": "Sansone",
+    "given": "Susanna-Assunta"
+   },
+   {
+    "family": "Schultes",
+    "given": "Erik"
+   },
+   {
+    "family": "Sengstag",
+    "given": "Thierry"
+   },
+   {
+    "family": "Slater",
+    "given": "Ted"
+   },
+   {
+    "family": "Strawn",
+    "given": "George"
+   },
+   {
+    "family": "Swertz",
+    "given": "Morris A."
+   },
+   {
+    "family": "Thompson",
+    "given": "Mark"
+   },
+   {
+    "family": "van der Lei",
+    "given": "Johan"
+   },
+   {
+    "family": "van Mulligen",
+    "given": "Erik"
+   },
+   {
+    "family": "Velterop",
+    "given": "Jan"
+   },
+   {
+    "family": "Waagmeester",
+    "given": "Andra"
+   },
+   {
+    "family": "Wittenburg",
+    "given": "Peter"
+   },
+   {
+    "family": "Wolstencroft",
+    "given": "Katherine"
+   },
+   {
+    "family": "Zhao",
+    "given": "Jun"
+   },
+   {
+    "family": "Mons",
+    "given": "Barend"
+   }
+  ],
+  "year": 2016,
+  "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+  "container": "Scientific Data",
+  "volume": "3",
+  "issue": "1",
+  "pages": "160018",
+  "publisher": "Springer Science and Business Media LLC"
+ },
+ "shahrier2025": {
+  "type": "journal-article",
+  "doi": "10.1371/journal.pone.0328699",
+  "authors": [
+   {
+    "family": "Shahrier",
+    "given": "Rafee"
+   },
+   {
+    "family": "Hasan",
+    "given": "Mohammad Nazmol"
+   },
+   {
+    "family": "Ankita",
+    "given": "Sadia Yesmin"
+   },
+   {
+    "family": "Tasnim",
+    "given": "Ismat"
+   },
+   {
+    "family": "Rahman",
+    "given": "Kazi Tamim"
+   }
+  ],
+  "year": 2025,
+  "title": "Impact of climate change on Boro rice production in Bangladesh: Evidence from time series modeling",
+  "container": "PLOS One",
+  "volume": "20",
+  "issue": "7",
+  "pages": "e0328699",
+  "publisher": "Public Library of Science (PLoS)"
+ },
+ "almamun2024": {
+  "type": "journal-article",
+  "doi": "10.1371/journal.pone.0300648",
+  "authors": [
+   {
+    "family": "Al Mamun",
+    "given": "Md. Abdullah"
+   },
+   {
+    "family": "Nihad",
+    "given": "Sheikh Arafat Islam"
+   },
+   {
+    "family": "Sarker",
+    "given": "Mou Rani"
+   },
+   {
+    "family": "Sarkar",
+    "given": "Md Abdur Rouf"
+   },
+   {
+    "family": "Hossain",
+    "given": "Md. Ismail"
+   },
+   {
+    "family": "Kabir",
+    "given": "Md. Shahjahan"
+   }
+  ],
+  "year": 2024,
+  "title": "Spatiotemporal mapping of rice acreage and productivity growth in Bangladesh",
+  "container": "PLOS ONE",
+  "volume": "19",
+  "issue": "3",
+  "pages": "e0300648",
+  "publisher": "Public Library of Science (PLoS)"
+ },
+ "khidirova2026": {
+  "type": "preprint",
+  "doi": "10.48550/arXiv.2601.01655",
+  "authors": [
+   {
+    "family": "Khidirova",
+    "given": "Emiliya"
+   },
+   {
+    "family": "Karakuş",
+    "given": "Oktay"
+   }
+  ],
+  "year": 2026,
+  "title": "UniCrop: A Universal, Multi-Source Data Engineering Pipeline for Scalable Crop Yield Prediction",
+  "publisher": "arXiv"
+ },
+ "kallenberg2026": {
+  "type": "journal-article",
+  "doi": "10.5194/essd-18-3997-2026",
+  "authors": [
+   {
+    "family": "Kallenberg",
+    "given": "Michiel"
+   },
+   {
+    "family": "Paudel",
+    "given": "Dilli"
+   },
+   {
+    "family": "Ofori-Ampofo",
+    "given": "Stella"
+   },
+   {
+    "family": "Baja",
+    "given": "Hilmy"
+   },
+   {
+    "family": "van Bree",
+    "given": "Ron"
+   },
+   {
+    "family": "Potze",
+    "given": "Aike"
+   },
+   {
+    "family": "Poudel",
+    "given": "Pratishtha"
+   },
+   {
+    "family": "Saleh",
+    "given": "Abdelrahman"
+   },
+   {
+    "family": "Anderson",
+    "given": "Weston"
+   },
+   {
+    "family": "von Bloh",
+    "given": "Malte"
+   },
+   {
+    "family": "Castellano",
+    "given": "Andres"
+   },
+   {
+    "family": "Ennaji",
+    "given": "Oumnia"
+   },
+   {
+    "family": "Hamed",
+    "given": "Raed"
+   },
+   {
+    "family": "Laudien",
+    "given": "Rahel"
+   },
+   {
+    "family": "Lee",
+    "given": "Donghoon"
+   },
+   {
+    "family": "Luna",
+    "given": "Inti"
+   },
+   {
+    "family": "Masiliūnas",
+    "given": "Dainius"
+   },
+   {
+    "family": "Meroni",
+    "given": "Michele"
+   },
+   {
+    "family": "Mutuku",
+    "given": "Janet Mumo"
+   },
+   {
+    "family": "Mkuhlani",
+    "given": "Siyabusa"
+   },
+   {
+    "family": "Richetti",
+    "given": "Jonathan"
+   },
+   {
+    "family": "Ruane",
+    "given": "Alex C."
+   },
+   {
+    "family": "Sahajpal",
+    "given": "Ritvik"
+   },
+   {
+    "family": "Shuai",
+    "given": "Guanyuan"
+   },
+   {
+    "family": "Sitokonstantinou",
+    "given": "Vasileios"
+   },
+   {
+    "family": "Nóia-Júnior",
+    "given": "Rogério de S."
+   },
+   {
+    "family": "Srivastava",
+    "given": "Amit Kumar"
+   },
+   {
+    "family": "Strong",
+    "given": "Robert"
+   },
+   {
+    "family": "Sweet",
+    "given": "Lily-belle"
+   },
+   {
+    "family": "Vojnović",
+    "given": "Petar"
+   },
+   {
+    "family": "de Wit",
+    "given": "Allard"
+   },
+   {
+    "family": "Zachow",
+    "given": "Maximilian"
+   },
+   {
+    "family": "Athanasiadis",
+    "given": "Ioannis N."
+   }
+  ],
+  "year": 2026,
+  "title": "CY-Bench: a comprehensive benchmark dataset for sub-national crop yield forecasting",
+  "container": "Earth System Science Data",
+  "volume": "18",
+  "issue": "6",
+  "pages": "3997-4018",
+  "publisher": "Copernicus GmbH"
+ },
+ "lee2025": {
+  "type": "journal-article",
+  "doi": "10.1038/s41597-025-05001-z",
+  "authors": [
+   {
+    "family": "Lee",
+    "given": "Donghoon"
+   },
+   {
+    "family": "Anderson",
+    "given": "Weston"
+   },
+   {
+    "family": "Chen",
+    "given": "Xuan"
+   },
+   {
+    "family": "Davenport",
+    "given": "Frank"
+   },
+   {
+    "family": "Shukla",
+    "given": "Shraddhanand"
+   },
+   {
+    "family": "Sahajpal",
+    "given": "Ritvik"
+   },
+   {
+    "family": "Budde",
+    "given": "Michael"
+   },
+   {
+    "family": "Rowland",
+    "given": "James"
+   },
+   {
+    "family": "Verdin",
+    "given": "Jim"
+   },
+   {
+    "family": "You",
+    "given": "Liangzhi"
+   },
+   {
+    "family": "Ahouangbenon",
+    "given": "Matthieu"
+   },
+   {
+    "family": "Davis",
+    "given": "Kyle Frankel"
+   },
+   {
+    "family": "Kebede",
+    "given": "Endalkachew"
+   },
+   {
+    "family": "Ehrmann",
+    "given": "Steffen"
+   },
+   {
+    "family": "Justice",
+    "given": "Christina"
+   },
+   {
+    "family": "Meyer",
+    "given": "Carsten"
+   }
+  ],
+  "year": 2025,
+  "title": "HarvestStat Africa – Harmonized Subnational Crop Statistics for Sub-Saharan Africa",
+  "container": "Scientific Data",
+  "volume": "12",
+  "issue": "1",
+  "pages": "690",
+  "publisher": "Springer Science and Business Media LLC"
+ },
+ "ronchetti2024": {
+  "type": "journal-article",
+  "doi": "10.5194/essd-16-1623-2024",
+  "authors": [
+   {
+    "family": "Ronchetti",
+    "given": "Giulia"
+   },
+   {
+    "family": "Nisini Scacchiafichi",
+    "given": "Luigi"
+   },
+   {
+    "family": "Seguini",
+    "given": "Lorenzo"
+   },
+   {
+    "family": "Cerrani",
+    "given": "Iacopo"
+   },
+   {
+    "family": "van der Velde",
+    "given": "Marijn"
+   }
+  ],
+  "year": 2024,
+  "title": "Harmonized European Union subnational crop statistics can reveal climate impacts and crop cultivation shifts",
+  "container": "Earth System Science Data",
+  "volume": "16",
+  "issue": "3",
+  "pages": "1623-1649",
+  "publisher": "Copernicus GmbH"
+ },
+ "iizumi2020": {
+  "type": "journal-article",
+  "doi": "10.1038/s41597-020-0433-7",
+  "authors": [
+   {
+    "family": "Iizumi",
+    "given": "Toshichika"
+   },
+   {
+    "family": "Sakai",
+    "given": "Toru"
+   }
+  ],
+  "year": 2020,
+  "title": "The global dataset of historical yields for major crops 1981–2016",
+  "container": "Scientific Data",
+  "volume": "7",
+  "issue": "1",
+  "pages": "97",
+  "publisher": "Springer Science and Business Media LLC"
+ },
+ "zhang2020": {
+  "type": "journal-article",
+  "doi": "10.1016/j.envsoft.2020.104694",
+  "authors": [
+   {
+    "family": "Zhang",
+    "given": "Chen"
+   },
+   {
+    "family": "Di",
+    "given": "Liping"
+   },
+   {
+    "family": "Yang",
+    "given": "Zhengwei"
+   },
+   {
+    "family": "Lin",
+    "given": "Li"
+   },
+   {
+    "family": "Hao",
+    "given": "Pengyu"
+   }
+  ],
+  "year": 2020,
+  "title": "AgKit4EE: A toolkit for agricultural land use modeling of the conterminous United States based on Google Earth Engine",
+  "container": "Environmental Modelling &amp; Software",
+  "volume": "129",
+  "issue": null,
+  "pages": "104694",
+  "publisher": "Elsevier BV"
+ },
+ "iturbide2019": {
+  "type": "journal-article",
+  "doi": "10.1016/j.envsoft.2018.09.009",
+  "authors": [
+   {
+    "family": "Iturbide",
+    "given": "M."
+   },
+   {
+    "family": "Bedia",
+    "given": "J."
+   },
+   {
+    "family": "Herrera",
+    "given": "S."
+   },
+   {
+    "family": "Baño-Medina",
+    "given": "J."
+   },
+   {
+    "family": "Fernández",
+    "given": "J."
+   },
+   {
+    "family": "Frías",
+    "given": "M.D."
+   },
+   {
+    "family": "Manzanas",
+    "given": "R."
+   },
+   {
+    "family": "San-Martín",
+    "given": "D."
+   },
+   {
+    "family": "Cimadevilla",
+    "given": "E."
+   },
+   {
+    "family": "Cofiño",
+    "given": "A.S."
+   },
+   {
+    "family": "Gutiérrez",
+    "given": "J.M."
+   }
+  ],
+  "year": 2019,
+  "title": "The R-based climate4R open framework for reproducible climate data access and post-processing",
+  "container": "Environmental Modelling &amp; Software",
+  "volume": "111",
+  "issue": null,
+  "pages": "42-54",
+  "publisher": "Elsevier BV"
+ },
+ "graf2022": {
+  "type": "journal-article",
+  "doi": "10.1016/j.compag.2022.107487",
+  "authors": [
+   {
+    "family": "Graf",
+    "given": "Lukas Valentin"
+   },
+   {
+    "family": "Perich",
+    "given": "Gregor"
+   },
+   {
+    "family": "Aasen",
+    "given": "Helge"
+   }
+  ],
+  "year": 2022,
+  "title": "EOdal: An open-source Python package for large-scale agroecological research using Earth Observation and gridded environmental data",
+  "container": "Computers and Electronics in Agriculture",
+  "volume": "203",
+  "issue": null,
+  "pages": "107487",
+  "publisher": "Elsevier BV"
+ },
+ "tate2012": {
+  "type": "journal-article",
+  "doi": "10.1007/s11069-012-0152-2",
+  "authors": [
+   {
+    "family": "Tate",
+    "given": "Eric"
+   }
+  ],
+  "year": 2012,
+  "title": "Social vulnerability indices: a comparative assessment using uncertainty and sensitivity analysis",
+  "container": "Natural Hazards",
+  "volume": "63",
+  "issue": "2",
+  "pages": "325-347",
+  "publisher": "Springer Science and Business Media LLC"
+ },
+ "kamal2018": {
+  "type": "journal-article",
+  "doi": "10.1016/j.ijdrr.2018.06.011",
+  "authors": [
+   {
+    "family": "Kamal",
+    "given": "A.S.M. Maksud"
+   },
+   {
+    "family": "Shamsudduha",
+    "given": "Mohammad"
+   },
+   {
+    "family": "Ahmed",
+    "given": "Bayes"
+   },
+   {
+    "family": "Hassan",
+    "given": "S.M. Kamrul"
+   },
+   {
+    "family": "Islam",
+    "given": "Md. Shahidul"
+   },
+   {
+    "family": "Kelman",
+    "given": "Ilan"
+   },
+   {
+    "family": "Fordham",
+    "given": "Maureen"
+   }
+  ],
+  "year": 2018,
+  "title": "Resilience to flash floods in wetland communities of northeastern Bangladesh",
+  "container": "International Journal of Disaster Risk Reduction",
+  "volume": "31",
+  "issue": null,
+  "pages": "478-488",
+  "publisher": "Elsevier BV"
+ },
+ "pekel2016": {
+  "type": "journal-article",
+  "doi": "10.1038/nature20584",
+  "authors": [
+   {
+    "family": "Pekel",
+    "given": "Jean-François"
+   },
+   {
+    "family": "Cottam",
+    "given": "Andrew"
+   },
+   {
+    "family": "Gorelick",
+    "given": "Noel"
+   },
+   {
+    "family": "Belward",
+    "given": "Alan S."
+   }
+  ],
+  "year": 2016,
+  "title": "High-resolution mapping of global surface water and its long-term changes",
+  "container": "Nature",
+  "volume": "540",
+  "issue": "7633",
+  "pages": "418-422",
+  "publisher": "Springer Science and Business Media LLC"
+ },
+ "uddin2019": {
+  "type": "journal-article",
+  "doi": "10.3390/rs11131581",
+  "authors": [
+   {
+    "family": "Uddin",
+    "given": "Kabir"
+   },
+   {
+    "family": "Matin",
+    "given": "Mir A."
+   },
+   {
+    "family": "Meyer",
+    "given": "Franz J."
+   }
+  ],
+  "year": 2019,
+  "title": "Operational Flood Mapping Using Multi-Temporal Sentinel-1 SAR Images: A Case Study from Bangladesh",
+  "container": "Remote Sensing",
+  "volume": "11",
+  "issue": "13",
+  "pages": "1581",
+  "publisher": "MDPI AG"
+ },
+ "didan2021": {
+  "type": "dataset",
+  "doi": "10.5067/MODIS/MOD13Q1.061",
+  "authors": [
+   {
+    "family": "Didan",
+    "given": "Kamel"
+   }
+  ],
+  "year": 2021,
+  "title": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061",
+  "publisher": "NASA Land Processes Distributed Active Archive Center"
+ },
+ "gorelick2017": {
+  "type": "journal-article",
+  "doi": "10.1016/j.rse.2017.06.031",
+  "authors": [
+   {
+    "family": "Gorelick",
+    "given": "Noel"
+   },
+   {
+    "family": "Hancher",
+    "given": "Matt"
+   },
+   {
+    "family": "Dixon",
+    "given": "Mike"
+   },
+   {
+    "family": "Ilyushchenko",
+    "given": "Simon"
+   },
+   {
+    "family": "Thau",
+    "given": "David"
+   },
+   {
+    "family": "Moore",
+    "given": "Rebecca"
+   }
+  ],
+  "year": 2017,
+  "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+  "container": "Remote Sensing of Environment",
+  "volume": "202",
+  "issue": null,
+  "pages": "18-27",
+  "publisher": "Elsevier BV"
+ },
+ "zanaga2022": {
+  "type": "dataset",
+  "doi": "10.5281/zenodo.7254221",
+  "authors": [
+   {
+    "family": "Zanaga",
+    "given": "Daniele"
+   },
+   {
+    "family": "Van De Kerchove",
+    "given": "Ruben"
+   },
+   {
+    "family": "Daems",
+    "given": "Dirk"
+   },
+   {
+    "family": "De Keersmaecker",
+    "given": "Wanda"
+   },
+   {
+    "family": "Brockmann",
+    "given": "Carsten"
+   },
+   {
+    "family": "Kirches",
+    "given": "Grit"
+   },
+   {
+    "family": "Wevers",
+    "given": "Jan"
+   },
+   {
+    "family": "Cartus",
+    "given": "Oliver"
+   },
+   {
+    "family": "Santoro",
+    "given": "Maurizio"
+   },
+   {
+    "family": "Fritz",
+    "given": "Steffen"
+   },
+   {
+    "family": "Lesiv",
+    "given": "Myroslava"
+   },
+   {
+    "family": "Herold",
+    "given": "Martin"
+   },
+   {
+    "family": "Tsendbazar",
+    "given": "Nandin-Erdene"
+   },
+   {
+    "family": "Xu",
+    "given": "Panpan"
+   },
+   {
+    "family": "Ramoino",
+    "given": "Fabrizio"
+   },
+   {
+    "family": "Arino",
+    "given": "Olivier"
+   }
+  ],
+  "year": 2022,
+  "title": "ESA WorldCover 10 m 2021 v200",
+  "publisher": "Zenodo"
+ },
+ "munozsabater2021": {
+  "type": "journal-article",
+  "doi": "10.5194/essd-13-4349-2021",
+  "authors": [
+   {
+    "family": "Muñoz-Sabater",
+    "given": "Joaquín"
+   },
+   {
+    "family": "Dutra",
+    "given": "Emanuel"
+   },
+   {
+    "family": "Agustí-Panareda",
+    "given": "Anna"
+   },
+   {
+    "family": "Albergel",
+    "given": "Clément"
+   },
+   {
+    "family": "Arduini",
+    "given": "Gabriele"
+   },
+   {
+    "family": "Balsamo",
+    "given": "Gianpaolo"
+   },
+   {
+    "family": "Boussetta",
+    "given": "Souhail"
+   },
+   {
+    "family": "Choulga",
+    "given": "Margarita"
+   },
+   {
+    "family": "Harrigan",
+    "given": "Shaun"
+   },
+   {
+    "family": "Hersbach",
+    "given": "Hans"
+   },
+   {
+    "family": "Martens",
+    "given": "Brecht"
+   },
+   {
+    "family": "Miralles",
+    "given": "Diego G."
+   },
+   {
+    "family": "Piles",
+    "given": "María"
+   },
+   {
+    "family": "Rodríguez-Fernández",
+    "given": "Nemesio J."
+   },
+   {
+    "family": "Zsoter",
+    "given": "Ervin"
+   },
+   {
+    "family": "Buontempo",
+    "given": "Carlo"
+   },
+   {
+    "family": "Thépaut",
+    "given": "Jean-Noël"
+   }
+  ],
+  "year": 2021,
+  "title": "ERA5-Land: a state-of-the-art global reanalysis dataset for land applications",
+  "container": "Earth System Science Data",
+  "volume": "13",
+  "issue": "9",
+  "pages": "4349-4383",
+  "publisher": "Copernicus GmbH"
+ },
+ "torres2012": {
+  "type": "journal-article",
+  "doi": "10.1016/j.rse.2011.05.028",
+  "authors": [
+   {
+    "family": "Torres",
+    "given": "Ramon"
+   },
+   {
+    "family": "Snoeij",
+    "given": "Paul"
+   },
+   {
+    "family": "Geudtner",
+    "given": "Dirk"
+   },
+   {
+    "family": "Bibby",
+    "given": "David"
+   },
+   {
+    "family": "Davidson",
+    "given": "Malcolm"
+   },
+   {
+    "family": "Attema",
+    "given": "Evert"
+   },
+   {
+    "family": "Potin",
+    "given": "Pierre"
+   },
+   {
+    "family": "Rommen",
+    "given": "BjÖrn"
+   },
+   {
+    "family": "Floury",
+    "given": "Nicolas"
+   },
+   {
+    "family": "Brown",
+    "given": "Mike"
+   },
+   {
+    "family": "Traver",
+    "given": "Ignacio Navas"
+   },
+   {
+    "family": "Deghaye",
+    "given": "Patrick"
+   },
+   {
+    "family": "Duesmann",
+    "given": "Berthyl"
+   },
+   {
+    "family": "Rosich",
+    "given": "Betlem"
+   },
+   {
+    "family": "Miranda",
+    "given": "Nuno"
+   },
+   {
+    "family": "Bruno",
+    "given": "Claudio"
+   },
+   {
+    "family": "L'Abbate",
+    "given": "Michelangelo"
+   },
+   {
+    "family": "Croci",
+    "given": "Renato"
+   },
+   {
+    "family": "Pietropaolo",
+    "given": "Andrea"
+   },
+   {
+    "family": "Huchler",
+    "given": "Markus"
+   },
+   {
+    "family": "Rostan",
+    "given": "Friedhelm"
+   }
+  ],
+  "year": 2012,
+  "title": "GMES Sentinel-1 mission",
+  "container": "Remote Sensing of Environment",
+  "volume": "120",
+  "issue": null,
+  "pages": "9-24",
+  "publisher": "Elsevier BV"
+ },
+ "farr2007": {
+  "type": "journal-article",
+  "doi": "10.1029/2005RG000183",
+  "authors": [
+   {
+    "family": "Farr",
+    "given": "Tom G."
+   },
+   {
+    "family": "Rosen",
+    "given": "Paul A."
+   },
+   {
+    "family": "Caro",
+    "given": "Edward"
+   },
+   {
+    "family": "Crippen",
+    "given": "Robert"
+   },
+   {
+    "family": "Duren",
+    "given": "Riley"
+   },
+   {
+    "family": "Hensley",
+    "given": "Scott"
+   },
+   {
+    "family": "Kobrick",
+    "given": "Michael"
+   },
+   {
+    "family": "Paller",
+    "given": "Mimi"
+   },
+   {
+    "family": "Rodriguez",
+    "given": "Ernesto"
+   },
+   {
+    "family": "Roth",
+    "given": "Ladislav"
+   },
+   {
+    "family": "Seal",
+    "given": "David"
+   },
+   {
+    "family": "Shaffer",
+    "given": "Scott"
+   },
+   {
+    "family": "Shimada",
+    "given": "Joanne"
+   },
+   {
+    "family": "Umland",
+    "given": "Jeffrey"
+   },
+   {
+    "family": "Werner",
+    "given": "Marian"
+   },
+   {
+    "family": "Oskin",
+    "given": "Michael"
+   },
+   {
+    "family": "Burbank",
+    "given": "Douglas"
+   },
+   {
+    "family": "Alsdorf",
+    "given": "Douglas"
+   }
+  ],
+  "year": 2007,
+  "title": "The Shuttle Radar Topography Mission",
+  "container": "Reviews of Geophysics",
+  "volume": "45",
+  "issue": "2",
+  "pages": "2005RG000183",
+  "publisher": "American Geophysical Union (AGU)"
+ },
+ "raasveldt2019": {
+  "type": "proceedings-article",
+  "doi": "10.1145/3299869.3320212",
+  "authors": [
+   {
+    "family": "Raasveldt",
+    "given": "Mark"
+   },
+   {
+    "family": "Mühleisen",
+    "given": "Hannes"
+   }
+  ],
+  "year": 2019,
+  "title": "DuckDB: an Embeddable Analytical Database",
+  "container": "Proceedings of the 2019 International Conference on Management of Data",
+  "volume": null,
+  "issue": null,
+  "pages": "1981-1984",
+  "publisher": "ACM"
+ },
+ "jagadish2007": {
+  "type": "journal-article",
+  "doi": "10.1093/jxb/erm003",
+  "authors": [
+   {
+    "family": "Jagadish",
+    "given": "SVK"
+   },
+   {
+    "family": "Craufurd",
+    "given": "PQ"
+   },
+   {
+    "family": "Wheeler",
+    "given": "TR"
+   }
+  ],
+  "year": 2007,
+  "title": "High temperature stress and spikelet fertility in rice (Oryza sativa L.)",
+  "container": "Journal of Experimental Botany",
+  "volume": "58",
+  "issue": "7",
+  "pages": "1627-1635",
+  "publisher": "Oxford University Press (OUP)"
+ },
+ "prasad2006": {
+  "type": "journal-article",
+  "doi": "10.1016/j.fcr.2005.04.008",
+  "authors": [
+   {
+    "family": "Prasad",
+    "given": "P.V.V."
+   },
+   {
+    "family": "Boote",
+    "given": "K.J."
+   },
+   {
+    "family": "Allen",
+    "given": "L.H."
+   },
+   {
+    "family": "Sheehy",
+    "given": "J.E."
+   },
+   {
+    "family": "Thomas",
+    "given": "J.M.G."
+   }
+  ],
+  "year": 2006,
+  "title": "Species, ecotype and cultivar differences in spikelet fertility and harvest index of rice in response to high temperature stress",
+  "container": "Field Crops Research",
+  "volume": "95",
+  "issue": "2-3",
+  "pages": "398-411",
+  "publisher": "Elsevier BV"
+ },
+ "twele2016": {
+  "type": "journal-article",
+  "doi": "10.1080/01431161.2016.1192304",
+  "authors": [
+   {
+    "family": "Twele",
+    "given": "André"
+   },
+   {
+    "family": "Cao",
+    "given": "Wenxi"
+   },
+   {
+    "family": "Plank",
+    "given": "Simon"
+   },
+   {
+    "family": "Martinis",
+    "given": "Sandro"
+   }
+  ],
+  "year": 2016,
+  "title": "Sentinel-1-based flood mapping: a fully automated processing chain",
+  "container": "International Journal of Remote Sensing",
+  "volume": "37",
+  "issue": "13",
+  "pages": "2990-3004",
+  "publisher": "Informa UK Limited"
+ },
+ "saisana2005": {
+  "type": "journal-article",
+  "doi": "10.1111/j.1467-985X.2005.00350.x",
+  "authors": [
+   {
+    "family": "Saisana",
+    "given": "M."
+   },
+   {
+    "family": "Saltelli",
+    "given": "A."
+   },
+   {
+    "family": "Tarantola",
+    "given": "S."
+   }
+  ],
+  "year": 2005,
+  "title": "Uncertainty and Sensitivity Analysis Techniques as Tools for the Quality Assessment of Composite Indicators",
+  "container": "Journal of the Royal Statistical Society Series A: Statistics in Society",
+  "volume": "168",
+  "issue": "2",
+  "pages": "307-323",
+  "publisher": "Oxford University Press (OUP)"
+ },
+ "moran1950": {
+  "type": "journal-article",
+  "doi": "10.1093/biomet/37.1-2.17",
+  "authors": [
+   {
+    "family": "MORAN",
+    "given": "P. A. P."
+   }
+  ],
+  "year": 1950,
+  "title": "NOTES ON CONTINUOUS STOCHASTIC PHENOMENA",
+  "container": "Biometrika",
+  "volume": "37",
+  "issue": "1-2",
+  "pages": "17-23",
+  "publisher": "Oxford University Press (OUP)"
+ },
+ "anselin1995": {
+  "type": "journal-article",
+  "doi": "10.1111/j.1538-4632.1995.tb00338.x",
+  "authors": [
+   {
+    "family": "Anselin",
+    "given": "Luc"
+   }
+  ],
+  "year": 1995,
+  "title": "Local Indicators of Spatial Association—LISA",
+  "container": "Geographical Analysis",
+  "volume": "27",
+  "issue": "2",
+  "pages": "93-115",
+  "publisher": "Wiley"
+ },
+ "benjamini1995": {
+  "type": "journal-article",
+  "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+  "authors": [
+   {
+    "family": "Benjamini",
+    "given": "Yoav"
+   },
+   {
+    "family": "Hochberg",
+    "given": "Yosef"
+   }
+  ],
+  "year": 1995,
+  "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+  "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+  "volume": "57",
+  "issue": "1",
+  "pages": "289-300",
+  "publisher": "Oxford University Press (OUP)"
+ },
+ "rey2007": {
+  "type": "journal-article",
+  "doi": "10.52324/001c.8285",
+  "authors": [
+   {
+    "family": "Rey",
+    "given": "Sergio J."
+   },
+   {
+    "family": "Anselin",
+    "given": "Luc"
+   }
+  ],
+  "year": 2007,
+  "title": "PySAL: A Python Library of Spatial Analytical Methods",
+  "container": "Review of Regional Studies",
+  "volume": "37",
+  "issue": "1",
+  "pages": null,
+  "publisher": "Southern Regional Science Association"
+ },
+ "shamsudduha2012": {
+  "type": "journal-article",
+  "doi": "10.1029/2011WR010993",
+  "authors": [
+   {
+    "family": "Shamsudduha",
+    "given": "M."
+   },
+   {
+    "family": "Taylor",
+    "given": "R. G."
+   },
+   {
+    "family": "Longuevergne",
+    "given": "L."
+   }
+  ],
+  "year": 2012,
+  "title": "Monitoring groundwater storage changes in the highly seasonal humid tropics: Validation of GRACE measurements in the Bengal Basin",
+  "container": "Water Resources Research",
+  "volume": "48",
+  "issue": "2",
+  "pages": "2011WR010993",
+  "publisher": "American Geophysical Union (AGU)"
+ },
+ "sarkar2023": {
+  "type": "journal-article",
+  "doi": "10.1038/s41598-023-44132-4",
+  "authors": [
+   {
+    "family": "Sarkar",
+    "given": "Showmitra Kumar"
+   },
+   {
+    "family": "Rudra",
+    "given": "Rhyme Rubayet"
+   },
+   {
+    "family": "Sohan",
+    "given": "Abid Reza"
+   },
+   {
+    "family": "Das",
+    "given": "Palash Chandra"
+   },
+   {
+    "family": "Ekram",
+    "given": "Khondaker Mohammed Mohiuddin"
+   },
+   {
+    "family": "Talukdar",
+    "given": "Swapan"
+   },
+   {
+    "family": "Rahman",
+    "given": "Atiqur"
+   },
+   {
+    "family": "Alam",
+    "given": "Edris"
+   },
+   {
+    "family": "Islam",
+    "given": "Md Kamrul"
+   },
+   {
+    "family": "Islam",
+    "given": "Abu Reza Md. Towfiqul"
+   }
+  ],
+  "year": 2023,
+  "title": "Coupling of machine learning and remote sensing for soil salinity mapping in coastal area of Bangladesh",
+  "container": "Scientific Reports",
+  "volume": "13",
+  "issue": "1",
+  "pages": "17056",
+  "publisher": "Springer Science and Business Media LLC"
+ },
+ "barker2022": {
+  "type": "journal-article",
+  "doi": "10.1038/s41597-022-01710-x",
+  "authors": [
+   {
+    "family": "Barker",
+    "given": "Michelle"
+   },
+   {
+    "family": "Chue Hong",
+    "given": "Neil P."
+   },
+   {
+    "family": "Katz",
+    "given": "Daniel S."
+   },
+   {
+    "family": "Lamprecht",
+    "given": "Anna-Lena"
+   },
+   {
+    "family": "Martinez-Ortiz",
+    "given": "Carlos"
+   },
+   {
+    "family": "Psomopoulos",
+    "given": "Fotis"
+   },
+   {
+    "family": "Harrow",
+    "given": "Jennifer"
+   },
+   {
+    "family": "Castro",
+    "given": "Leyla Jael"
+   },
+   {
+    "family": "Gruenpeter",
+    "given": "Morane"
+   },
+   {
+    "family": "Martinez",
+    "given": "Paula Andrea"
+   },
+   {
+    "family": "Honeyman",
+    "given": "Tom"
+   }
+  ],
+  "year": 2022,
+  "title": "Introducing the FAIR Principles for research software",
+  "container": "Scientific Data",
+  "volume": "9",
+  "issue": "1",
+  "pages": "622",
+  "publisher": "Springer Science and Business Media LLC"
+ },
+ "sandve2013": {
+  "type": "journal-article",
+  "doi": "10.1371/journal.pcbi.1003285",
+  "authors": [
+   {
+    "family": "Sandve",
+    "given": "Geir Kjetil"
+   },
+   {
+    "family": "Nekrutenko",
+    "given": "Anton"
+   },
+   {
+    "family": "Taylor",
+    "given": "James"
+   },
+   {
+    "family": "Hovig",
+    "given": "Eivind"
+   }
+  ],
+  "year": 2013,
+  "title": "Ten Simple Rules for Reproducible Computational Research",
+  "container": "PLoS Computational Biology",
+  "volume": "9",
+  "issue": "10",
+  "pages": "e1003285",
+  "publisher": "Public Library of Science (PLoS)"
+ },
+ "wilson2017": {
+  "type": "journal-article",
+  "doi": "10.1371/journal.pcbi.1005510",
+  "authors": [
+   {
+    "family": "Wilson",
+    "given": "Greg"
+   },
+   {
+    "family": "Bryan",
+    "given": "Jennifer"
+   },
+   {
+    "family": "Cranston",
+    "given": "Karen"
+   },
+   {
+    "family": "Kitzes",
+    "given": "Justin"
+   },
+   {
+    "family": "Nederbragt",
+    "given": "Lex"
+   },
+   {
+    "family": "Teal",
+    "given": "Tracy K."
+   }
+  ],
+  "year": 2017,
+  "title": "Good enough practices in scientific computing",
+  "container": "PLOS Computational Biology",
+  "volume": "13",
+  "issue": "6",
+  "pages": "e1005510",
+  "publisher": "Public Library of Science (PLoS)"
+ },
+ "peng2011": {
+  "type": "journal-article",
+  "doi": "10.1126/science.1213847",
+  "authors": [
+   {
+    "family": "Peng",
+    "given": "Roger D."
+   }
+  ],
+  "year": 2011,
+  "title": "Reproducible Research in Computational Science",
+  "container": "Science",
+  "volume": "334",
+  "issue": "6060",
+  "pages": "1226-1227",
+  "publisher": "American Association for the Advancement of Science (AAAS)"
+ },
+ "stodden2016": {
+  "type": "journal-article",
+  "doi": "10.1126/science.aah6168",
+  "authors": [
+   {
+    "family": "Stodden",
+    "given": "Victoria"
+   },
+   {
+    "family": "McNutt",
+    "given": "Marcia"
+   },
+   {
+    "family": "Bailey",
+    "given": "David H."
+   },
+   {
+    "family": "Deelman",
+    "given": "Ewa"
+   },
+   {
+    "family": "Gil",
+    "given": "Yolanda"
+   },
+   {
+    "family": "Hanson",
+    "given": "Brooks"
+   },
+   {
+    "family": "Heroux",
+    "given": "Michael A."
+   },
+   {
+    "family": "Ioannidis",
+    "given": "John P.A."
+   },
+   {
+    "family": "Taufer",
+    "given": "Michela"
+   }
+  ],
+  "year": 2016,
+  "title": "Enhancing reproducibility for computational methods",
+  "container": "Science",
+  "volume": "354",
+  "issue": "6317",
+  "pages": "1240-1241",
+  "publisher": "American Association for the Advancement of Science (AAAS)"
+ },
+ "hutton2016": {
+  "type": "journal-article",
+  "doi": "10.1002/2016WR019285",
+  "authors": [
+   {
+    "family": "Hutton",
+    "given": "Christopher"
+   },
+   {
+    "family": "Wagener",
+    "given": "Thorsten"
+   },
+   {
+    "family": "Freer",
+    "given": "Jim"
+   },
+   {
+    "family": "Han",
+    "given": "Dawei"
+   },
+   {
+    "family": "Duffy",
+    "given": "Chris"
+   },
+   {
+    "family": "Arheimer",
+    "given": "Berit"
+   }
+  ],
+  "year": 2016,
+  "title": "Most computational hydrology is not reproducible, so is it really science?",
+  "container": "Water Resources Research",
+  "volume": "52",
+  "issue": "10",
+  "pages": "7548-7555",
+  "publisher": "American Geophysical Union (AGU)"
+ },
+ "konkol2019": {
+  "type": "journal-article",
+  "doi": "10.1080/13658816.2018.1508687",
+  "authors": [
+   {
+    "family": "Konkol",
+    "given": "Markus"
+   },
+   {
+    "family": "Kray",
+    "given": "Christian"
+   },
+   {
+    "family": "Pfeiffer",
+    "given": "Max"
+   }
+  ],
+  "year": 2019,
+  "title": "Computational reproducibility in geoscientific papers: Insights from a series of studies with geoscientists and a reproduction study",
+  "container": "International Journal of Geographical Information Science",
+  "volume": "33",
+  "issue": "2",
+  "pages": "408-429",
+  "publisher": "Informa UK Limited"
+ },
+ "nust2018": {
+  "type": "journal-article",
+  "doi": "10.7717/peerj.5072",
+  "authors": [
+   {
+    "family": "Nüst",
+    "given": "Daniel"
+   },
+   {
+    "family": "Granell",
+    "given": "Carlos"
+   },
+   {
+    "family": "Hofer",
+    "given": "Barbara"
+   },
+   {
+    "family": "Konkol",
+    "given": "Markus"
+   },
+   {
+    "family": "Ostermann",
+    "given": "Frank O."
+   },
+   {
+    "family": "Sileryte",
+    "given": "Rusne"
+   },
+   {
+    "family": "Cerutti",
+    "given": "Valentina"
+   }
+  ],
+  "year": 2018,
+  "title": "Reproducible research and GIScience: an evaluation using AGILE conference papers",
+  "container": "PeerJ",
+  "volume": "6",
+  "issue": null,
+  "pages": "e5072",
+  "publisher": "PeerJ"
+ },
+ "essawy2020": {
+  "type": "journal-article",
+  "doi": "10.1016/j.envsoft.2020.104753",
+  "authors": [
+   {
+    "family": "Essawy",
+    "given": "Bakinam T."
+   },
+   {
+    "family": "Goodall",
+    "given": "Jonathan L."
+   },
+   {
+    "family": "Voce",
+    "given": "Daniel"
+   },
+   {
+    "family": "Morsy",
+    "given": "Mohamed M."
+   },
+   {
+    "family": "Sadler",
+    "given": "Jeffrey M."
+   },
+   {
+    "family": "Choi",
+    "given": "Young Don"
+   },
+   {
+    "family": "Tarboton",
+    "given": "David G."
+   },
+   {
+    "family": "Malik",
+    "given": "Tanu"
+   }
+  ],
+  "year": 2020,
+  "title": "A taxonomy for reproducible and replicable research in environmental modelling",
+  "container": "Environmental Modelling &amp; Software",
+  "volume": "134",
+  "issue": null,
+  "pages": "104753",
+  "publisher": "Elsevier BV"
+ },
+ "schelter2018": {
+  "type": "journal-article",
+  "doi": "10.14778/3229863.3229867",
+  "authors": [
+   {
+    "family": "Schelter",
+    "given": "Sebastian"
+   },
+   {
+    "family": "Lange",
+    "given": "Dustin"
+   },
+   {
+    "family": "Schmidt",
+    "given": "Philipp"
+   },
+   {
+    "family": "Celikel",
+    "given": "Meltem"
+   },
+   {
+    "family": "Biessmann",
+    "given": "Felix"
+   },
+   {
+    "family": "Grafberger",
+    "given": "Andreas"
+   }
+  ],
+  "year": 2018,
+  "title": "Automating large-scale data quality verification",
+  "container": "Proceedings of the VLDB Endowment",
+  "volume": "11",
+  "issue": "12",
+  "pages": "1781-1794",
+  "publisher": "Association for Computing Machinery (ACM)"
+ },
+ "polyzotis2018": {
+  "type": "journal-article",
+  "doi": "10.1145/3299887.3299891",
+  "authors": [
+   {
+    "family": "Polyzotis",
+    "given": "Neoklis"
+   },
+   {
+    "family": "Roy",
+    "given": "Sudip"
+   },
+   {
+    "family": "Whang",
+    "given": "Steven Euijong"
+   },
+   {
+    "family": "Zinkevich",
+    "given": "Martin"
+   }
+  ],
+  "year": 2018,
+  "title": "Data Lifecycle Challenges in Production Machine Learning: A Survey",
+  "container": "ACM SIGMOD Record",
+  "volume": "47",
+  "issue": "2",
+  "pages": "17-28",
+  "publisher": "Association for Computing Machinery (ACM)"
+ },
+ "wang1996": {
+  "type": "journal-article",
+  "doi": "10.1080/07421222.1996.11518099",
+  "authors": [
+   {
+    "family": "Wang",
+    "given": "Richard Y."
+   },
+   {
+    "family": "Strong",
+    "given": "Diane M."
+   }
+  ],
+  "year": 1996,
+  "title": "Beyond Accuracy: What Data Quality Means to Data Consumers",
+  "container": "Journal of Management Information Systems",
+  "volume": "12",
+  "issue": "4",
+  "pages": "5-33",
+  "publisher": "Informa UK Limited"
+ },
+ "simmhan2005": {
+  "type": "journal-article",
+  "doi": "10.1145/1084805.1084812",
+  "authors": [
+   {
+    "family": "Simmhan",
+    "given": "Yogesh L."
+   },
+   {
+    "family": "Plale",
+    "given": "Beth"
+   },
+   {
+    "family": "Gannon",
+    "given": "Dennis"
+   }
+  ],
+  "year": 2005,
+  "title": "A survey of data provenance in e-science",
+  "container": "ACM SIGMOD Record",
+  "volume": "34",
+  "issue": "3",
+  "pages": "31-36",
+  "publisher": "Association for Computing Machinery (ACM)"
+ },
+ "runfola2020": {
+  "type": "journal-article",
+  "doi": "10.1371/journal.pone.0231866",
+  "authors": [
+   {
+    "family": "Runfola",
+    "given": "Daniel"
+   },
+   {
+    "family": "Anderson",
+    "given": "Austin"
+   },
+   {
+    "family": "Baier",
+    "given": "Heather"
+   },
+   {
+    "family": "Crittenden",
+    "given": "Matt"
+   },
+   {
+    "family": "Dowker",
+    "given": "Elizabeth"
+   },
+   {
+    "family": "Fuhrig",
+    "given": "Sydney"
+   },
+   {
+    "family": "Goodman",
+    "given": "Seth"
+   },
+   {
+    "family": "Grimsley",
+    "given": "Grace"
+   },
+   {
+    "family": "Layko",
+    "given": "Rachel"
+   },
+   {
+    "family": "Melville",
+    "given": "Graham"
+   },
+   {
+    "family": "Mulder",
+    "given": "Maddy"
+   },
+   {
+    "family": "Oberman",
+    "given": "Rachel"
+   },
+   {
+    "family": "Panganiban",
+    "given": "Joshua"
+   },
+   {
+    "family": "Peck",
+    "given": "Andrew"
+   },
+   {
+    "family": "Seitz",
+    "given": "Leigh"
+   },
+   {
+    "family": "Shea",
+    "given": "Sylvia"
+   },
+   {
+    "family": "Slevin",
+    "given": "Hannah"
+   },
+   {
+    "family": "Youngerman",
+    "given": "Rebecca"
+   },
+   {
+    "family": "Hobbs",
+    "given": "Lauren"
+   }
+  ],
+  "year": 2020,
+  "title": "geoBoundaries: A global database of political administrative boundaries",
+  "container": "PLOS ONE",
+  "volume": "15",
+  "issue": "4",
+  "pages": "e0231866",
+  "publisher": "Public Library of Science (PLoS)"
+ },
+ "christen2012": {
+  "type": "book",
+  "doi": "10.1007/978-3-642-31164-2",
+  "authors": [
+   {
+    "family": "Christen",
+    "given": "Peter"
+   }
+  ],
+  "year": 2012,
+  "title": "Data Matching: Concepts and Techniques for Record Linkage, Entity Resolution, and Duplicate Detection",
+  "container": "",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "publisher": "Springer Berlin Heidelberg"
+ },
+ "gregory2005": {
+  "type": "journal-article",
+  "doi": "10.1111/j.1467-985X.2005.00356.x",
+  "authors": [
+   {
+    "family": "Gregory",
+    "given": "Ian N."
+   },
+   {
+    "family": "Ell",
+    "given": "Paul S."
+   }
+  ],
+  "year": 2005,
+  "title": "Breaking the Boundaries: Geographical Approaches to Integrating 200 Years of the Census",
+  "container": "Journal of the Royal Statistical Society Series A: Statistics in Society",
+  "volume": "168",
+  "issue": "2",
+  "pages": "419-437",
+  "publisher": "Oxford University Press (OUP)"
+ },
+ "logan2014": {
+  "type": "journal-article",
+  "doi": "10.1080/00330124.2014.905156",
+  "authors": [
+   {
+    "family": "Logan",
+    "given": "John R."
+   },
+   {
+    "family": "Xu",
+    "given": "Zengwang"
+   },
+   {
+    "family": "Stults",
+    "given": "Brian J."
+   }
+  ],
+  "year": 2014,
+  "title": "Interpolating U.S. Decennial Census Tract Data from as Early as 1970 to 2010: A Longitudinal Tract Database",
+  "container": "The Professional Geographer",
+  "volume": "66",
+  "issue": "3",
+  "pages": "412-420",
+  "publisher": "Informa UK Limited"
+ },
+ "paudel2021": {
+  "type": "journal-article",
+  "doi": "10.1016/j.agsy.2020.103016",
+  "authors": [
+   {
+    "family": "Paudel",
+    "given": "Dilli"
+   },
+   {
+    "family": "Boogaard",
+    "given": "Hendrik"
+   },
+   {
+    "family": "de Wit",
+    "given": "Allard"
+   },
+   {
+    "family": "Janssen",
+    "given": "Sander"
+   },
+   {
+    "family": "Osinga",
+    "given": "Sjoukje"
+   },
+   {
+    "family": "Pylianidis",
+    "given": "Christos"
+   },
+   {
+    "family": "Athanasiadis",
+    "given": "Ioannis N."
+   }
+  ],
+  "year": 2021,
+  "title": "Machine learning for large-scale crop yield forecasting",
+  "container": "Agricultural Systems",
+  "volume": "187",
+  "issue": null,
+  "pages": "103016",
+  "publisher": "Elsevier BV"
+ },
+ "janssen2017": {
+  "type": "journal-article",
+  "doi": "10.1016/j.agsy.2016.09.017",
+  "authors": [
+   {
+    "family": "Janssen",
+    "given": "Sander J.C."
+   },
+   {
+    "family": "Porter",
+    "given": "Cheryl H."
+   },
+   {
+    "family": "Moore",
+    "given": "Andrew D."
+   },
+   {
+    "family": "Athanasiadis",
+    "given": "Ioannis N."
+   },
+   {
+    "family": "Foster",
+    "given": "Ian"
+   },
+   {
+    "family": "Jones",
+    "given": "James W."
+   },
+   {
+    "family": "Antle",
+    "given": "John M."
+   }
+  ],
+  "year": 2017,
+  "title": "Towards a new generation of agricultural system data, models and knowledge products: Information and communication technology",
+  "container": "Agricultural Systems",
+  "volume": "155",
+  "issue": null,
+  "pages": "200-212",
+  "publisher": "Elsevier BV"
+ },
+ "lewis2017": {
+  "type": "journal-article",
+  "doi": "10.1016/j.rse.2017.03.015",
+  "authors": [
+   {
+    "family": "Lewis",
+    "given": "Adam"
+   },
+   {
+    "family": "Oliver",
+    "given": "Simon"
+   },
+   {
+    "family": "Lymburner",
+    "given": "Leo"
+   },
+   {
+    "family": "Evans",
+    "given": "Ben"
+   },
+   {
+    "family": "Wyborn",
+    "given": "Lesley"
+   },
+   {
+    "family": "Mueller",
+    "given": "Norman"
+   },
+   {
+    "family": "Raevksi",
+    "given": "Gregory"
+   },
+   {
+    "family": "Hooke",
+    "given": "Jeremy"
+   },
+   {
+    "family": "Woodcock",
+    "given": "Rob"
+   },
+   {
+    "family": "Sixsmith",
+    "given": "Joshua"
+   },
+   {
+    "family": "Wu",
+    "given": "Wenjun"
+   },
+   {
+    "family": "Tan",
+    "given": "Peter"
+   },
+   {
+    "family": "Li",
+    "given": "Fuqin"
+   },
+   {
+    "family": "Killough",
+    "given": "Brian"
+   },
+   {
+    "family": "Minchin",
+    "given": "Stuart"
+   },
+   {
+    "family": "Roberts",
+    "given": "Dale"
+   },
+   {
+    "family": "Ayers",
+    "given": "Damien"
+   },
+   {
+    "family": "Bala",
+    "given": "Biswajit"
+   },
+   {
+    "family": "Dwyer",
+    "given": "John"
+   },
+   {
+    "family": "Dekker",
+    "given": "Arnold"
+   },
+   {
+    "family": "Dhu",
+    "given": "Trevor"
+   },
+   {
+    "family": "Hicks",
+    "given": "Andrew"
+   },
+   {
+    "family": "Ip",
+    "given": "Alex"
+   },
+   {
+    "family": "Purss",
+    "given": "Matt"
+   },
+   {
+    "family": "Richards",
+    "given": "Clare"
+   },
+   {
+    "family": "Sagar",
+    "given": "Stephen"
+   },
+   {
+    "family": "Trenham",
+    "given": "Claire"
+   },
+   {
+    "family": "Wang",
+    "given": "Peter"
+   },
+   {
+    "family": "Wang",
+    "given": "Lan-Wei"
+   }
+  ],
+  "year": 2017,
+  "title": "The Australian Geoscience Data Cube — Foundations and lessons learned",
+  "container": "Remote Sensing of Environment",
+  "volume": "202",
+  "issue": null,
+  "pages": "276-292",
+  "publisher": "Elsevier BV"
+ },
+ "giuliani2017": {
+  "type": "journal-article",
+  "doi": "10.1080/20964471.2017.1398903",
+  "authors": [
+   {
+    "family": "Giuliani",
+    "given": "Gregory"
+   },
+   {
+    "family": "Chatenoux",
+    "given": "Bruno"
+   },
+   {
+    "family": "De Bono",
+    "given": "Andrea"
+   },
+   {
+    "family": "Rodila",
+    "given": "Denisa"
+   },
+   {
+    "family": "Richard",
+    "given": "Jean-Philippe"
+   },
+   {
+    "family": "Allenbach",
+    "given": "Karin"
+   },
+   {
+    "family": "Dao",
+    "given": "Hy"
+   },
+   {
+    "family": "Peduzzi",
+    "given": "Pascal"
+   }
+  ],
+  "year": 2017,
+  "title": "Building an Earth Observations Data Cube: lessons learned from the Swiss Data Cube (SDC) on generating Analysis Ready Data (ARD)",
+  "container": "Big Earth Data",
+  "volume": "1",
+  "issue": "1-2",
+  "pages": "100-117",
+  "publisher": "Informa UK Limited"
+ },
+ "schramm2021": {
+  "type": "journal-article",
+  "doi": "10.3390/rs13061125",
+  "authors": [
+   {
+    "family": "Schramm",
+    "given": "Matthias"
+   },
+   {
+    "family": "Pebesma",
+    "given": "Edzer"
+   },
+   {
+    "family": "Milenković",
+    "given": "Milutin"
+   },
+   {
+    "family": "Foresta",
+    "given": "Luca"
+   },
+   {
+    "family": "Dries",
+    "given": "Jeroen"
+   },
+   {
+    "family": "Jacob",
+    "given": "Alexander"
+   },
+   {
+    "family": "Wagner",
+    "given": "Wolfgang"
+   },
+   {
+    "family": "Mohr",
+    "given": "Matthias"
+   },
+   {
+    "family": "Neteler",
+    "given": "Markus"
+   },
+   {
+    "family": "Kadunc",
+    "given": "Miha"
+   },
+   {
+    "family": "Miksa",
+    "given": "Tomasz"
+   },
+   {
+    "family": "Kempeneers",
+    "given": "Pieter"
+   },
+   {
+    "family": "Verbesselt",
+    "given": "Jan"
+   },
+   {
+    "family": "Gößwein",
+    "given": "Bernhard"
+   },
+   {
+    "family": "Navacchi",
+    "given": "Claudio"
+   },
+   {
+    "family": "Lippens",
+    "given": "Stefaan"
+   },
+   {
+    "family": "Reiche",
+    "given": "Johannes"
+   }
+  ],
+  "year": 2021,
+  "title": "The openEO API–Harmonising the Use of Earth Observation Cloud Services Using Virtual Data Cube Functionalities",
+  "container": "Remote Sensing",
+  "volume": "13",
+  "issue": "6",
+  "pages": "1125",
+  "publisher": "MDPI AG"
+ },
+ "molder2021": {
+  "type": "journal-article",
+  "doi": "10.12688/f1000research.29032.2",
+  "authors": [
+   {
+    "family": "Mölder",
+    "given": "Felix"
+   },
+   {
+    "family": "Jablonski",
+    "given": "Kim Philipp"
+   },
+   {
+    "family": "Letcher",
+    "given": "Brice"
+   },
+   {
+    "family": "Hall",
+    "given": "Michael B."
+   },
+   {
+    "family": "Tomkins-Tinch",
+    "given": "Christopher H."
+   },
+   {
+    "family": "Sochat",
+    "given": "Vanessa"
+   },
+   {
+    "family": "Forster",
+    "given": "Jan"
+   },
+   {
+    "family": "Lee",
+    "given": "Soohyun"
+   },
+   {
+    "family": "Twardziok",
+    "given": "Sven O."
+   },
+   {
+    "family": "Kanitz",
+    "given": "Alexander"
+   },
+   {
+    "family": "Wilm",
+    "given": "Andreas"
+   },
+   {
+    "family": "Holtgrewe",
+    "given": "Manuel"
+   },
+   {
+    "family": "Rahmann",
+    "given": "Sven"
+   },
+   {
+    "family": "Nahnsen",
+    "given": "Sven"
+   },
+   {
+    "family": "Köster",
+    "given": "Johannes"
+   }
+  ],
+  "year": 2021,
+  "title": "Sustainable data analysis with Snakemake",
+  "container": "F1000Research",
+  "volume": "10",
+  "issue": null,
+  "pages": "33",
+  "publisher": "F1000 Research Ltd"
+ },
+ "landau2021": {
+  "type": "journal-article",
+  "doi": "10.21105/joss.02959",
+  "authors": [
+   {
+    "family": "Landau",
+    "given": "William"
+   }
+  ],
+  "year": 2021,
+  "title": "The targets R package: a dynamic Make-like function-oriented pipeline toolkit for reproducibility and high-performance computing",
+  "container": "Journal of Open Source Software",
+  "volume": "6",
+  "issue": "57",
+  "pages": "2959",
+  "publisher": "The Open Journal"
+ },
+ "rahal2023": {
+  "type": "preprint",
+  "doi": "10.48550/arXiv.2309.11274",
+  "authors": [
+   {
+    "family": "Rahal",
+    "given": "Manal"
+   },
+   {
+    "family": "Ahmed",
+    "given": "Bestoun S."
+   },
+   {
+    "family": "Samuelsson",
+    "given": "Jorgen"
+   }
+  ],
+  "year": 2023,
+  "title": "Machine Learning Data Suitability and Performance Testing Using Fault Injection Testing Framework",
+  "publisher": "arXiv"
+ }
+}

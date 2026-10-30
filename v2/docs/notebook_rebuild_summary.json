@@ -1,0 +1,21 @@
+{
+ "date_utc": "2026-10-30",
+ "compared": 25,
+ "identical": 25,
+ "by_layer": {
+  "Bronze": 12,
+  "Gold": 8,
+  "Silver": 5
+ },
+ "panel_identical": true,
+ "panel_sha256": "5cbaeb1edaef99f3411a56d5797d32b4de475d10f6041df2df1fd7b7d5336d24",
+ "validation": {
+  "PASS": 107,
+  "INFO": 1
+ },
+ "live_check": {
+  "extract": "ndvi_2016",
+  "districts": 64,
+  "max_abs_diff": 3.3306690738754696e-16
+ }
+}

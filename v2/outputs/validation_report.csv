@@ -1,0 +1,109 @@
+category,layer,object,check,expected,observed,affected_records,status
+geographic,Bronze,all sources,every source district name maps to the gazetteer,0 unmatched,0 unmatched,0,PASS
+geographic,Bronze,gazetteer,no alias rule repeats or collides with a canonical district name,0,0,0,PASS
+geographic,Bronze,GADM v4.1,GADM districts map one-to-one onto the 64 canonical districts,"64 distinct, all canonical",64 distinct,0,PASS
+geographic,Bronze,BBS yearbooks,source covers all 64 districts,64,64,0,PASS
+geographic,Bronze,Earth Engine extract (climate),source covers all 64 districts,64,64,0,PASS
+geographic,Bronze,Earth Engine extract (jrc),source covers all 64 districts,64,64,0,PASS
+geographic,Bronze,Earth Engine extract (ndvi),source covers all 64 districts,64,64,0,PASS
+geographic,Bronze,Earth Engine extract (s1),source covers all 64 districts,64,64,0,PASS
+geographic,Bronze,GADM v4.1,source covers all 64 districts,64,64,0,PASS
+geographic,Bronze,gazetteer,every alias rule matches a spelling in the sources,34 of 34 used,34 of 34 used,0,PASS
+structural,Bronze,bbs/bbs_boro_rows_all.csv,required columns present,15 columns,all present,0,PASS
+structural,Bronze,bbs/bbs_boro_district_year.csv,required columns present,8 columns,all present,0,PASS
+structural,Bronze,bbs/bbs_boro_national.csv,required columns present,5 columns,all present,0,PASS
+structural,Bronze,gee/ndvi_all.csv,required columns present,4 columns,all present,0,PASS
+structural,Bronze,gee/climate_all.csv,required columns present,6 columns,all present,0,PASS
+structural,Bronze,gee/jrc_all.csv,required columns present,6 columns,all present,0,PASS
+structural,Bronze,gee/s1_all.csv,required columns present,4 columns,all present,0,PASS
+structural,Gold,dim_district,columns and types match the data dictionary,4 documented columns,match,0,PASS
+structural,Gold,stg_bbs_boro,columns and types match the data dictionary,8 documented columns,match,0,PASS
+structural,Gold,stg_ndvi,columns and types match the data dictionary,4 documented columns,match,0,PASS
+structural,Gold,stg_climate,columns and types match the data dictionary,6 documented columns,match,0,PASS
+structural,Gold,stg_jrc,columns and types match the data dictionary,6 documented columns,match,0,PASS
+structural,Gold,stg_s1,columns and types match the data dictionary,4 documented columns,match,0,PASS
+structural,Gold,fact_boro_national,columns and types match the data dictionary,7 documented columns,match,0,PASS
+structural,Gold,fact_boro_panel,columns and types match the data dictionary,23 documented columns,match,0,PASS
+relational,Gold,dim_district,key (district_id) unique and not null,"unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,dim_district,row count,64,64,0,PASS
+relational,Gold,stg_bbs_boro,"key (district, harvest_year) unique and not null","unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,stg_bbs_boro,row count,960,960,0,PASS
+relational,Gold,stg_ndvi,"key (district, harvest_year) unique and not null","unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,stg_ndvi,row count,960,960,0,PASS
+relational,Gold,stg_climate,"key (district, harvest_year) unique and not null","unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,stg_climate,row count,960,960,0,PASS
+relational,Gold,stg_jrc,"key (district, harvest_year) unique and not null","unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,stg_jrc,row count,768,768,0,PASS
+relational,Gold,stg_s1,"key (district, harvest_year) unique and not null","unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,stg_s1,row count,704,704,0,PASS
+relational,Gold,fact_boro_national,key (harvest_year) unique and not null,"unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,fact_boro_national,row count,15,15,0,PASS
+relational,Gold,fact_boro_panel,"key (district_id, harvest_year) unique and not null","unique, 0 null","0 duplicates, 0 null",0,PASS
+relational,Gold,fact_boro_panel,row count,960,960,0,PASS
+relational,Gold,fact_boro_panel,joins neither multiply nor drop BBS rows,960 rows (= stg_bbs_boro),960,0,PASS
+relational,Gold,stg_bbs_boro,every district exists in dim_district,0 orphans,0 orphans,0,PASS
+relational,Gold,stg_bbs_boro,every staging record reaches the panel,0 lost,0 lost,0,PASS
+relational,Gold,stg_ndvi,every district exists in dim_district,0 orphans,0 orphans,0,PASS
+relational,Gold,stg_ndvi,every staging record reaches the panel,0 lost,0 lost,0,PASS
+relational,Gold,stg_climate,every district exists in dim_district,0 orphans,0 orphans,0,PASS
+relational,Gold,stg_climate,every staging record reaches the panel,0 lost,0 lost,0,PASS
+relational,Gold,stg_jrc,every district exists in dim_district,0 orphans,0 orphans,0,PASS
+relational,Gold,stg_jrc,every staging record reaches the panel,0 lost,0 lost,0,PASS
+relational,Gold,stg_s1,every district exists in dim_district,0 orphans,0 orphans,0,PASS
+relational,Gold,stg_s1,every staging record reaches the panel,0 lost,0 lost,0,PASS
+relational,Gold,fact_boro_panel,ndvi_peak: non-missing values preserved by the join,960,960,0,PASS
+relational,Gold,fact_boro_panel,ndvi_max: non-missing values preserved by the join,960,960,0,PASS
+relational,Gold,fact_boro_panel,tmean_c: non-missing values preserved by the join,960,960,0,PASS
+relational,Gold,fact_boro_panel,tmax_c: non-missing values preserved by the join,960,960,0,PASS
+relational,Gold,fact_boro_panel,precip_mm: non-missing values preserved by the join,960,960,0,PASS
+relational,Gold,fact_boro_panel,hot_days: non-missing values preserved by the join,960,960,0,PASS
+relational,Gold,fact_boro_panel,jrc_monsoon_flood: non-missing values preserved by the join,768,768,0,PASS
+relational,Gold,fact_boro_panel,jrc_monsoon_obs: non-missing values preserved by the join,768,768,0,PASS
+relational,Gold,fact_boro_panel,jrc_flash_flood: non-missing values preserved by the join,704,704,0,PASS
+relational,Gold,fact_boro_panel,jrc_flash_obs: non-missing values preserved by the join,704,704,0,PASS
+relational,Gold,fact_boro_panel,s1_monsoon_flood: non-missing values preserved by the join,640,640,0,PASS
+relational,Gold,fact_boro_panel,s1_flash_flood: non-missing values preserved by the join,704,704,0,PASS
+temporal,Gold,stg_bbs_boro,harvest year = first year of BBS crop year + 1,0 violations,0 violations,0,PASS
+temporal,Gold,fact_boro_panel,"15 consecutive harvest years, 64 districts each",2011–2025 × 64,"2011–2025, 64–64 districts",0,PASS
+temporal,Gold,fact_boro_panel,ndvi_peak: values present exactly for harvest years 2011–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,ndvi_max: values present exactly for harvest years 2011–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,tmean_c: values present exactly for harvest years 2011–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,tmax_c: values present exactly for harvest years 2011–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,precip_mm: values present exactly for harvest years 2011–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,hot_days: values present exactly for harvest years 2011–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,jrc_monsoon_flood: values present exactly for harvest years 2011–2022,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,jrc_monsoon_obs: values present exactly for harvest years 2011–2022,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,jrc_flash_flood: values present exactly for harvest years 2011–2021,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,jrc_flash_obs: values present exactly for harvest years 2011–2021,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,s1_monsoon_flood: values present exactly for harvest years 2016–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+temporal,Gold,fact_boro_panel,s1_flash_flood: values present exactly for harvest years 2015–2025,"0 gaps inside, 0 values outside","0 gaps, 0 outside",0,PASS
+value,Gold,fact_boro_panel,"BBS area, yield and production present in every row",0 missing,0 rows with a missing BBS value,0,PASS
+value,Gold,fact_boro_panel,"yield_t_ha within [1.0, 7.0]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"area_ha within [0, 300000]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"production_t within [0, 2000000]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"ndvi_peak within [0.0, 1.0]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"ndvi_max within [0.0, 1.0]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"tmean_c within [10, 35]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"tmax_c within [15, 40]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"precip_mm within [0, 3000]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"hot_days within [0, 92]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"jrc_monsoon_flood within [0, 1]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"jrc_flash_flood within [0, 1]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"jrc_monsoon_obs within [0, 1]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"jrc_flash_obs within [0, 1]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"s1_monsoon_flood within [0, 1]",0 outside,0 outside,0,PASS
+value,Gold,fact_boro_panel,"s1_flash_flood within [0, 1]",0 outside,0 outside,0,PASS
+lineage,Gold,fact_boro_panel,every BBS value records its yearbook edition and page,0 missing,0 missing,0,PASS
+lineage,Bronze,manifest.csv,every listed file present with the recorded SHA-256,77 files match,"77 match, 0 changed, 0 absent",0,PASS
+lineage,Bronze,manifest.csv,every Earth Engine extract is documented in the manifest,53 extracts,53 documented,0,PASS
+geographic,Bronze,GADM level 2,coordinate reference system,EPSG:4326,EPSG:4326,0,PASS
+geographic,Bronze,GADM level 2,"64 valid, non-empty district polygons",64 valid,"64 polygons, 0 invalid or empty",0,PASS
+geographic,Bronze,GADM level 2,district areas sum to the national polygon area,within 1 %,"0.000 % (139,584 vs 139,584 km²)",0,PASS
+cross-source,Bronze,BBS rows,"unit identities (area, yield, production) within 0.5 %",failures excluded and logged,"4 of 1726 rows failed, excluded",4,INFO
+cross-source,Bronze,BBS tables,district sum = printed national total (complete tables),within 0.001 %,max 0.000021 % over 18 tables,0,PASS
+cross-source,Bronze,BBS 2010-11,district sum = total quoted in yearbook text,"18,617,000 ± 532.5 t","18,616,780 t",0,PASS
+cross-source,Bronze,BBS 2021-22,district sum = total quoted in yearbook text,"20,185,945 ± 33.0 t","20,185,943 t",0,PASS
+cross-source,Bronze,BBS editions,years printed in two editions agree,"differences within rounding (1 ha, 0.001 t/ha)",0 of 6 differing pairs beyond rounding; largest differences 1 ha and 0.000 t/ha,0,PASS
+cross-source,Bronze,BBS 2012–2013 editions,region = sum of listed districts,all match within rounding,72 of 72 match,0,PASS
+cross-source,Bronze,BBS 2012–2013 editions,single-district region = 2014 district row,all match within rounding,5 of 5 match,0,PASS
+cross-source,Gold,fact_boro_national,national yield from district sums = printed national yield,within 0.001 t/ha,max 0.0005 t/ha over 13 years,0,PASS
