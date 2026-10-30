@@ -7,7 +7,10 @@ authors:
     given-names: Tasnim Ahmad
     affiliation: "Department of Agronomy and Agricultural Extension, University of Rajshahi"
     orcid: "https://orcid.org/0009-0006-8346-9622"
-version: "1.0.0-dev"
+  - family-names: Karim
+    given-names: Rezaul
+    affiliation: "Department of Statistics and Data Science, University of Rajshahi"
+version: "1.0.0"
 repository-code: "https://github.com/TasMumu/bd-boro-data-framework"
 license: MIT
 abstract: >-
@@ -26,5 +29,5 @@ keywords:
   - Bangladesh
   - Sentinel-1
   - DuckDB
-# No release has been archived yet: add "date-released" and the Zenodo DOI
-# (identifiers) when version 1.0.0 is released.
+# Add "date-released" and the Zenodo DOI (identifiers) once release v1.0.0
+# has been archived.
