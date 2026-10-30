@@ -24,7 +24,7 @@ Official crop statistics are often combined with satellite and climate data, but
 
 # Software and data availability
 
-- Name: Bangladesh-Agri-Research, v2 pipeline
+- Name: bd-boro-data-framework
 - Developer and contact: Tasnim Ahmad Mumu, University of Rajshahi; tasnimmumu414@gmail.com
 - Year first available: 2026
 - Hardware required: a standard desktop or laptop computer (tested on {{ T['machine']['os'] }} with {{ T['machine']['cpus'] }} logical CPUs and {{ T['machine']['ram_gb'] }} GB RAM)
@@ -32,6 +32,6 @@ Official crop statistics are often combined with satellite and climate data, but
 - Programming languages: Python and SQL (DuckDB)
 - Documentation: README, a data dictionary generated from the specification, and two Jupyter notebooks (v2/notebooks) that build the dataset from the original sources step by step and document its evaluation
 - Program size: {{ f"{CODE['lines']:,}" }} lines of code ({{ CODE['kb'] }} KB), plus the test scripts
-- Availability: https://github.com/TasMumu/bd-boro-data-framework (folder v2) [authors: archive a tagged release, for example on Zenodo, and give its DOI here before submission]
+- Availability: https://github.com/TasMumu/bd-boro-data-framework (folder v2); the version described here is archived on Zenodo at https://doi.org/10.5281/zenodo.23795046
 - Licence and cost: free of charge. The code is released under the MIT licence. The derived data in the repository remain subject to the terms of the sources they are derived from (Table 2); the MIT licence does not apply to them
 - Data: the repository contains the derived data: the validated BBS district panel with the edition and page of every value, the Earth Engine district extracts, the district crosswalk, the validation report and the DuckDB analytical database. The BBS yearbook PDFs and the GADM boundaries are not redistributed and must be obtained from their publishers; the README explains how, and how to confirm from the SHA-256 checksums in the manifest that they are the files used.

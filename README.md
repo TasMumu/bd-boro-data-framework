@@ -1,5 +1,7 @@
 # bd-boro-data-framework
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23795046.svg)](https://doi.org/10.5281/zenodo.23795046)
+
 An open, tested data engineering framework for integrating official crop
 statistics with satellite and climate data, applied to district-level Boro
 rice in Bangladesh: all 64 districts, harvest years 2011–2025.
@@ -50,3 +52,6 @@ outputs in this repository.
 The code is released under the MIT License ([`LICENSE`](LICENSE)). The BBS
 yearbooks and GADM boundaries remain subject to their publishers' terms and
 are not included. To cite the code, see [`CITATION.cff`](CITATION.cff).
+
+The release described in the manuscript is archived on Zenodo at https://doi.org/10.5281/zenodo.23795046;
+https://doi.org/10.5281/zenodo.23795045 always resolves to the latest archived version.

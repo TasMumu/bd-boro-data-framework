@@ -24,7 +24,7 @@ Official crop statistics are often combined with satellite and climate data, but
 
 # Software and data availability
 
-- Name: Bangladesh-Agri-Research, v2 pipeline
+- Name: bd-boro-data-framework
 - Developer and contact: Tasnim Ahmad Mumu, University of Rajshahi; tasnimmumu414@gmail.com
 - Year first available: 2026
 - Hardware required: a standard desktop or laptop computer (tested on Windows-11 with 16 logical CPUs and 16 GB RAM)
@@ -32,7 +32,7 @@ Official crop statistics are often combined with satellite and climate data, but
 - Programming languages: Python and SQL (DuckDB)
 - Documentation: README, a data dictionary generated from the specification, and two Jupyter notebooks (v2/notebooks) that build the dataset from the original sources step by step and document its evaluation
 - Program size: 3,314 lines of code (174 KB), plus the test scripts
-- Availability: https://github.com/TasMumu/bd-boro-data-framework (folder v2) [authors: archive a tagged release, for example on Zenodo, and give its DOI here before submission]
+- Availability: https://github.com/TasMumu/bd-boro-data-framework (folder v2); the version described here is archived on Zenodo at https://doi.org/10.5281/zenodo.23795046
 - Licence and cost: free of charge. The code is released under the MIT licence. The derived data in the repository remain subject to the terms of the sources they are derived from (Table 2); the MIT licence does not apply to them
 - Data: the repository contains the derived data: the validated BBS district panel with the edition and page of every value, the Earth Engine district extracts, the district crosswalk, the validation report and the DuckDB analytical database. The BBS yearbook PDFs and the GADM boundaries are not redistributed and must be obtained from their publishers; the README explains how, and how to confirm from the SHA-256 checksums in the manifest that they are the files used.
 
@@ -484,7 +484,7 @@ During the preparation of this work the authors used Claude (Anthropic) to assis
 
 # Data availability
 
-The code (MIT licence) and the derived data are available in the repository given in the Software and data availability section; the derived data remain subject to the terms of their sources (Table 2). The BBS yearbook PDFs and the GADM v4.1 boundaries are not redistributed and must be obtained from the Bangladesh Bureau of Statistics and gadm.org; the manifest in the repository lists the SHA-256 checksum of each file used.
+The code (MIT licence) and the derived data are available in the repository given in the Software and data availability section and archived at https://doi.org/10.5281/zenodo.23795046; the derived data remain subject to the terms of their sources (Table 2). The BBS yearbook PDFs and the GADM v4.1 boundaries are not redistributed and must be obtained from the Bangladesh Bureau of Statistics and gadm.org; the manifest in the repository lists the SHA-256 checksum of each file used.
 
 
 # References
