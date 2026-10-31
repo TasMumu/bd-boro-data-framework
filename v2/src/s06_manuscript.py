@@ -77,6 +77,7 @@ TOP = VI[VI["rank"] <= 10]
 EV = pd.read_csv(TABLES / "table_event_2017.csv").set_index("district").head(6)
 DESC = pd.read_csv(TABLES / "table_descriptives.csv").set_index("variable")
 _f = pd.read_csv(V2_BRONZE / "bbs" / "bbs_boro_district_year.csv")
+CHP = _f[_f.district == "Chandpur"].set_index("harvest_year").area_ha
 NATSUM = _f.groupby("crop_year").production_t.sum().to_dict()
 
 
@@ -723,7 +724,7 @@ def render(text):
             return TABLE_FUNCS[expr]()
         return str(eval(expr, {"R": R, "REG": REG, "AP": AP, "EX": EX, "BBS": BBS, "VI": VI, "TOP": TOP, "EV": EV, "DESC": DESC, "NATSUM": NATSUM, "T": TIMINGS, "CODE": CODE, "HH": HH, "GEO": GEO,
                                "MATCH": MATCH, "XWALK": XWALK, "VAL": VAL, "VREP": VREP, "FT": FT, "FS": FS,
-                               "FSE": FSE, "fs_env": fs_env, "EVS": EVS, "ACC": ACC, "NBR": NBR, "sci": sci, "MI": MATCH.set_index("Source"), "ALIASES": __import__("common").ALIASES, "int": int, "sum": sum, "coef": coef, "pct": pct,
+                               "FSE": FSE, "CHP": CHP, "fs_env": fs_env, "EVS": EVS, "ACC": ACC, "NBR": NBR, "sci": sci, "MI": MATCH.set_index("Source"), "ALIASES": __import__("common").ALIASES, "int": int, "sum": sum, "coef": coef, "pct": pct,
                                "fmt_p": fmt_p, "p_eq": p_eq, "f": f, "w": w, "len": len, "round": round, "abs": abs,
                                "max": max, "min": min}))
     return re.sub(r"\{\{(.+?)\}\}", ev, text, flags=re.S)
