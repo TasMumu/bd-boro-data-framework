@@ -31,7 +31,7 @@ Official crop statistics are often combined with satellite and climate data, but
 - Software required: Python 3.11 or later (tested with 3.13.7) and the packages pinned in requirements-lock.txt (main packages in Appendix A); a Google Earth Engine account is needed only to re-extract satellite and climate data, since the extracts are included; pandoc is needed only to rebuild the manuscript
 - Programming languages: Python and SQL (DuckDB)
 - Documentation: README, a data dictionary generated from the specification, and two Jupyter notebooks (v2/notebooks) that build the dataset from the original sources step by step and document its evaluation
-- Program size: 3,315 lines of code (174 KB), plus the test scripts
+- Program size: 3,354 lines of code (176 KB), plus the test scripts
 - Availability: https://github.com/TasMumu/bd-boro-data-framework (folder v2); the version described here is archived on Zenodo at https://doi.org/10.5281/zenodo.23795046
 - Licence and cost: free of charge. The code is released under the MIT licence. The derived data in the repository remain subject to the terms of the sources they are derived from (Table 2); the MIT licence does not apply to them
 - Data: the repository contains the derived data: the validated BBS district panel with the edition and page of every value, the Earth Engine district extracts, the district crosswalk, the validation report and the DuckDB analytical database. The BBS yearbook PDFs and the GADM boundaries are not redistributed and must be obtained from their publishers; the README explains how, and how to confirm from the SHA-256 checksums in the manifest that they are the files used.
@@ -118,7 +118,7 @@ Table 2. Data sources, licences and access.
 | BBS Yearbook of Agricultural Statistics, 2012–2025 editions (Bangladesh Bureau of Statistics, 2013–2025, 2026) | District Boro area, yield and production (husked rice) | 64 districts | Public statistics; PDFs from bbs.gov.bd, not redistributed |
 | MODIS MOD13Q1 v061 (Didan, 2021) | NDVI, 16-day composites | 250 m | NASA open data; Earth Engine |
 | ESA WorldCover v200 (Zanaga et al., 2022) | Cropland mask (2021 map) | 10 m | CC BY 4.0; Earth Engine |
-| ERA5-Land daily aggregates (Muñoz-Sabater et al., 2021) | 2 m temperature, daily maximum, precipitation | 0.1° | Copernicus licence; Earth Engine |
+| ERA5-Land daily aggregates (Muñoz-Sabater et al., 2021; Copernicus Climate Change Service, 2019) | 2 m temperature, daily maximum, precipitation | 0.1° | Copernicus licence; Earth Engine |
 | JRC Global Surface Water v1.4, monthly history (Pekel et al., 2016) | Monthly water presence | 30 m | Free with attribution; Earth Engine |
 | Sentinel-1 GRD, IW, VV (Torres et al., 2012) | Backscatter for water detection | 10 m (analysed at 60 m) | Copernicus Sentinel data, free; Earth Engine |
 | SRTM v3 (Farr et al., 2007) | Slope mask for radar water detection | 30 m | Public domain; Earth Engine |
@@ -484,7 +484,7 @@ During the preparation of this work the authors used Claude (Anthropic) to assis
 
 # Data availability
 
-The code (MIT licence) and the derived data are available in the repository given in the Software and data availability section and archived at https://doi.org/10.5281/zenodo.23795046; the derived data remain subject to the terms of their sources (Table 2). The BBS yearbook PDFs and the GADM v4.1 boundaries are not redistributed and must be obtained from the Bangladesh Bureau of Statistics and gadm.org; the manifest in the repository lists the SHA-256 checksum of each file used.
+The code (MIT licence) and the derived data are available in the repository given in the Software and data availability section and archived at https://doi.org/10.5281/zenodo.23795046; the derived data remain subject to the terms of their sources (Table 2). Contains modified Copernicus Sentinel data (2014–2025) and modified Copernicus Climate Change Service information (2026). The BBS yearbook PDFs and the GADM v4.1 boundaries are not redistributed and must be obtained from the Bangladesh Bureau of Statistics and gadm.org; the manifest in the repository lists the SHA-256 checksum of each file used.
 
 
 # References
@@ -504,6 +504,8 @@ Barker, M., Chue Hong, N.P., Katz, D.S., Lamprecht, A.-L., Martinez-Ortiz, C., P
 Benjamini, Y., Hochberg, Y., 1995. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. Journal of the Royal Statistical Society Series B: Statistical Methodology 57 (1), 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x
 
 Christen, P., 2012. Data Matching: Concepts and Techniques for Record Linkage, Entity Resolution, and Duplicate Detection. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-31164-2
+
+Copernicus Climate Change Service, 2019. ERA5-Land hourly data from 1950 to present [dataset]. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). https://doi.org/10.24381/cds.e2161bac
 
 Didan, K., 2021. MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061 [dataset]. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/MODIS/MOD13Q1.061
 

@@ -17,7 +17,7 @@ Table 2. Data sources, licences and access.
 | BBS Yearbook of Agricultural Statistics, 2012–2025 editions [@bbs2013; @bbs2026] | District Boro area, yield and production (husked rice) | 64 districts | Public statistics; PDFs from bbs.gov.bd, not redistributed |
 | MODIS MOD13Q1 v061 [@didan2021] | NDVI, 16-day composites | 250 m | NASA open data; Earth Engine |
 | ESA WorldCover v200 [@zanaga2022] | Cropland mask (2021 map) | 10 m | CC BY 4.0; Earth Engine |
-| ERA5-Land daily aggregates [@munozsabater2021] | 2 m temperature, daily maximum, precipitation | 0.1° | Copernicus licence; Earth Engine |
+| ERA5-Land daily aggregates [@munozsabater2021; @c3s2019] | 2 m temperature, daily maximum, precipitation | 0.1° | Copernicus licence; Earth Engine |
 | JRC Global Surface Water v1.4, monthly history [@pekel2016] | Monthly water presence | 30 m | Free with attribution; Earth Engine |
 | Sentinel-1 GRD, IW, VV [@torres2012] | Backscatter for water detection | 10 m (analysed at 60 m) | Copernicus Sentinel data, free; Earth Engine |
 | SRTM v3 [@farr2007] | Slope mask for radar water detection | 30 m | Public domain; Earth Engine |

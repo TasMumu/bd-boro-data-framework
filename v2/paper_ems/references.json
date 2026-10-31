@@ -2612,5 +2612,18 @@
   "year": 2023,
   "title": "Machine Learning Data Suitability and Performance Testing Using Fault Injection Testing Framework",
   "publisher": "arXiv"
+ },
+ "c3s2019": {
+  "type": "dataset",
+  "doi": "10.24381/cds.e2161bac",
+  "authors": [
+   {
+    "family": "Copernicus Climate Change Service",
+    "given": ""
+   }
+  ],
+  "year": 2019,
+  "title": "ERA5-Land hourly data from 1950 to present",
+  "publisher": "Copernicus Climate Change Service (C3S) Climate Data Store (CDS)"
  }
 }

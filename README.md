@@ -496,9 +496,18 @@ sub-national crop statistics as PDF tables.
   choices. The cropland mask is static (2021) and not specific to Boro.
 - Crop destroyed before harvest can appear in BBS as lost harvested area rather
   than lower yield, so use area and production alongside yield.
-- Chandpur's 2016-17 area (110,467 ha) appears to be an error in the yearbooks,
-  which print the same area for HYV and hybrid Boro that year. It is kept as
-  printed, so treat that value with care.
+
+## Known source anomalies
+
+Values are kept as printed and are never edited by hand, so an error in the
+yearbooks themselves stays in the panel.
+
+- **Chandpur, 2016-17 (harvest year 2017).** The panel's 110,467 ha is far above
+  the 62,341 ha before and 67,733 ha after. The yearbooks print the same area
+  for HYV and hybrid Boro that year, about ten times the usual hybrid area. The
+  value passes the unit identities, is repeated in two editions and is included
+  in the printed national total, so none of the pipeline's checks flags it. Treat
+  it with care.
 
 ## Manuscript
 

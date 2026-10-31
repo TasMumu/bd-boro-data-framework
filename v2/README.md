@@ -65,6 +65,9 @@ BBS table and Gold panel exactly. The real data are never modified. Results:
 * Range validation and duplicate checks on every Silver table (the
   pipeline stops on any failure; a log is written to `logs/` locally).
 
+Known source anomaly: Chandpur's area for 2016-17 appears to be an error in the
+yearbooks. It is kept as printed; see the top-level README.
+
 ## Setup
 
 All commands are run from the repository root.
