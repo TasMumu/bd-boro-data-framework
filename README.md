@@ -3,6 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23795046.svg)](https://doi.org/10.5281/zenodo.23795046)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](v2/requirements-lock.txt)
+[![Live dashboard](https://img.shields.io/badge/Live_dashboard-Streamlit-FF4B4B.svg)](https://bd-boro-data-framework-3hadgqydkvpofswcnu4sf4.streamlit.app/)
 
 An open, tested data engineering framework for integrating official crop
 statistics with satellite and climate data, applied to district-level Boro
@@ -322,6 +323,11 @@ jupyter lab v2/notebooks
   the yearbooks or Earth Engine.
 
 ## Dashboard
+
+**Live:** https://bd-boro-data-framework-3hadgqydkvpofswcnu4sf4.streamlit.app/
+(Streamlit Community Cloud; the app may take a minute to wake up if it has been idle.)
+
+To run it locally:
 
 ```bash
 streamlit run v2/dashboard_v2.py
